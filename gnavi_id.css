@@ -1,0 +1,14 @@
+.globalnav ul {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+.globalnav ul li a:link, .globalnav ul li a:visited {
+    color: #000;
+}
+
+@media screen and (max-width: 767px) {
+.pc {
+	display: none;
+}

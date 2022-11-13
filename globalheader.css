@@ -1,0 +1,201 @@
+/*  Header
+--------------------------------------- */
+/*  globalheader  */
+.globalheader__container {
+  background: #eeeeee;
+}
+
+.globalheader {
+  background: url(./globalheader2020.png) no-repeat 0 0;
+/* edit2020  background: url(./globalheader2019.png) no-repeat 0 0; */
+  width: 940px;
+  height: 48px;
+  margin: 0 auto;
+  position: relative;
+}
+.globalheader .globalheader__logo {
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
+.globalheader .globalheader__logo a {
+  display: block;
+  width: 124px;
+  height: 28px;
+  text-indent: -9999px;
+  overflow: hidden;
+}
+
+.globalnav {
+/* edit2020  background: url(./globalheader2019.png) no-repeat 0 -48px; 
+  background: url(./globalheader2020.png) no-repeat 0 0;*/
+  height: 48px;
+	font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+/* edit2020
+.globalnav ul {
+  *zoom: 1;
+  position: absolute;
+  top: 0;
+  left: 169px;
+}
+.globalnav ul:before, .globalnav ul:after {
+  content: " ";
+  display: table;
+}
+.globalnav ul:after {
+  clear: both;
+}*/
+.globalnav ul {
+position:absolute;
+top: 0.5em;
+margin-left: 189px;
+}
+/* edit2020 .globalnav ul li { */
+.globalnav li {
+  float: left;
+	font-size: 12px;
+  margin: 2px 15px 2px 0; /* edit2020 add */
+	border-bottom: 1px solid #ccc;
+	line-height: 1.3;
+}
+
+.globalnav li a {
+  /* edit2020 background: url(/eiken/shared2/img/icon_arw_r_01.png) no-repeat 0 5px;
+  padding: 0 0 0 8px;*/
+	padding: 1px 2px;
+  text-decoration: none;
+}
+.globalnav li a:hover {
+/* edit2020 
+  text-decoration: underline; */
+	background:  #666666;
+	color: #ffffff;
+}
+
+/* edit2020
+.globalnav ul li a {
+  background: url(./globalheader2019.png) no-repeat 0 0;
+  display: block;
+  height: 48px;
+  text-indent: -9999px;
+  overflow: hidden;
+}
+.globalnav ul li a:hover {
+  filter: alpha(opacity=0);
+  opacity: 0;
+}
+.globalnav ul .globalnav__nav01 {
+  width: 49px;
+}
+.globalnav ul .globalnav__nav01 a {
+  background-position: -169px 0;
+}
+.globalnav ul .globalnav__nav11 {
+  width: 57px;
+}
+.globalnav ul .globalnav__nav11 a {
+  background-position: -218px 0;
+}
+.globalnav ul .globalnav__nav12 {
+  width: 59px;
+}
+.globalnav ul .globalnav__nav12 a {
+  background-position: -275px 0;
+}
+.globalnav ul .globalnav__nav02 {
+  width: 76px;
+}
+.globalnav ul .globalnav__nav02 a {
+  background-position: -334px 0;
+}
+.globalnav ul .globalnav__nav03 {
+  width: 79px;
+}
+.globalnav ul .globalnav__nav03 a {
+  background-position: -410px 0;
+}
+.globalnav ul .globalnav__nav031 {
+  width: 93px;
+}
+.globalnav ul .globalnav__nav031 a {
+  background-position: -489px 0;
+}
+.globalnav ul .globalnav__nav04 {
+  width: 77px;
+}
+.globalnav ul .globalnav__nav04 a {
+  background-position: -582px 0;
+}
+.globalnav ul .globalnav__nav06 {
+  width: 79px;
+}
+.globalnav ul .globalnav__nav06 a {
+  background-position: -659px 0;
+  margin-right: 1px;
+}
+.globalnav ul .globalnav__nav07 {
+  width: 83px;
+  margin-right: 49px;
+}
+.globalnav ul .globalnav__nav07 a {
+  background-position: -738px 0;
+}
+*/
+
+/*.globalnav ul .globalnav__nav08 {
+  width: 89px;
+  margin-right: 1px;
+}
+.globalnav ul .globalnav__nav08 a {
+  background-position: -709px 0;
+}
+.globalnav ul .globalnav__nav09 {
+  width: 72px;
+  margin-right: 1px;
+}
+.globalnav ul .globalnav__nav09 a {
+  background-position: -799px 0;
+}*/
+
+/* edit2020 
+.globalnav ul .globalnav__nav10 {
+  width: 70px;
+}
+.globalnav ul .globalnav__nav10 a {
+  background-position: -870px 0;
+}
+
+.globalnav--selected01 .globalnav .globalnav__nav01,
+.globalnav--selected02 .globalnav .globalnav__nav02,
+.globalnav--selected03 .globalnav .globalnav__nav03,
+.globalnav--selected031 .globalnav .globalnav__nav031,
+.globalnav--selected04 .globalnav .globalnav__nav04,
+.globalnav--selected05 .globalnav .globalnav__nav05,
+.globalnav--selected06 .globalnav .globalnav__nav06,
+.globalnav--selected07 .globalnav .globalnav__nav07,
+.globalnav--selected08 .globalnav .globalnav__nav08,
+.globalnav--selected09 .globalnav .globalnav__nav09,
+.globalnav--selected10 .globalnav .globalnav__nav10,
+.globalnav--selected11 .globalnav .globalnav__nav11,
+.globalnav--selected12 .globalnav .globalnav__nav12 {
+  height: 46px;
+  border-bottom: 2px solid #e60012;
+}
+.globalnav--selected01 .globalnav .globalnav__nav01 a,
+.globalnav--selected02 .globalnav .globalnav__nav02 a,
+.globalnav--selected03 .globalnav .globalnav__nav03 a,
+.globalnav--selected031 .globalnav .globalnav__nav031 a,
+.globalnav--selected04 .globalnav .globalnav__nav04 a,
+.globalnav--selected05 .globalnav .globalnav__nav05 a,
+.globalnav--selected06 .globalnav .globalnav__nav06 a,
+.globalnav--selected07 .globalnav .globalnav__nav07 a,
+.globalnav--selected08 .globalnav .globalnav__nav08 a,
+.globalnav--selected09 .globalnav .globalnav__nav09 a,
+.globalnav--selected10 .globalnav .globalnav__nav10 a,
+.globalnav--selected11 .globalnav .globalnav__nav11 a,
+.globalnav--selected12 .globalnav .globalnav__nav12 a {
+  filter: alpha(opacity=0);
+  opacity: 0;
+}
+*/
