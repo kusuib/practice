@@ -1,0 +1,87 @@
+#dialog{
+}
+
+.other_dialog{
+}
+
+#w_question_number_image{
+	position:					absolute;
+	left:						1vh;
+	top:						4.5vh;
+	width:						6vh;
+/* 2020/10/09 テキストエリアに画像パスが入力されてしまう対応*/
+	pointer-events:				none;
+/* 2020/10/09 テキストエリアに画像パスが入力されてしまう対応*/
+}
+
+#writing_question{
+	margin-top:					4.5vh;
+}
+
+.w_topic{
+	margin-top:					2vh;
+}
+
+.w_topic_title{
+	font-weight:				bold;
+}
+
+.w_topic_sentence{
+	font-style:					italic;
+}
+
+.w_question{
+	margin-top:					2vh;
+/* 2020/01/24 ライティングエリア位置調整対応*/
+	margin-bottom:				10vh;
+/* 2020/01/24 ライティングエリア位置調整対応*/
+}
+
+.w_content_area{
+/* 2020/08/25 コンテンツがはみ出してしまう対応*/	
+/*	margin-left:				4.5vh; */
+	margin-left:				6.5vh; 
+/* 2020/08/25 コンテンツがはみ出してしまう対応*/	
+}
+
+.writing_button{
+	text-align:					right;
+	padding-right:				0;
+}
+
+.writing_button button{
+	width:						15vh;
+	border:						solid 1px  #808080;
+	border-radius:				6px;
+}
+
+.writing_button button:hover{
+	opacity:					0.7;
+}
+
+.word_cnt{
+	text-align:					right;
+}
+
+#writing{
+	width:						100%;
+/* 2020/01/24 ライティングフォントサイズ変更対応*/
+	font-size:					3vh;
+	height:						30vh;
+/* 2020/01/24 ライティングフォントサイズ変更対応*/
+
+}
+
+.w_btn_area{
+	margin-top:					0.5vh;
+}
+
+#dialog-link_writing{
+	margin-right:				1vh;
+}
+
+/* 2020/07/24 文字数上限で貼り付けを行った場合の警告文対応*/	
+#dialog_writing_paste{
+	color:						#e2041b;
+}
+/* 2020/07/24 文字数上限で貼り付けを行った場合の警告文対応*/	
