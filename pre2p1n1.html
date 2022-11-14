@@ -30,20 +30,17 @@
     <script src="https://kusuib.github.io/practice/content02.js"></script>
     <!-- <script src="./assets/js/content03.js"></script> -->
     <script src="https://kusuib.github.io/practice/reading.js"></script>
-
-
-
 </head>
 
 <body style="--scale: 1;">
+
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KG4N2WQ"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     <div id="screen_lock" class="screen_lock align-middle text-center"><span><img src="./リーディング_files/wait.gif"></span></div>
     <div id="entrance">
-        <h1 class="title">リーディングテスト/ライティングテスト<br> (筆記型)
-        </h1>
+        <h1 class="title">準2級　大門1対策問題 </h1>
         <a href="https://www.eiken.or.jp/s-cbt/demo2021/reading01.html#">開始</a>
     </div>
     <div id="player" class="player" style="width: 1052px; height: 789px;">
@@ -60,7 +57,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <span id="grade_title">Grade Pre-2</span>
                         </div>
                         <!-- 2020/08/25 Wに気づかず筆記試験を終了してしまう問題対応-->
-                        <div class="grade_title_area col-5">筆記試験<span>リーディングテスト</span></div>
+                        <div class="grade_title_area col-5">筆記試験<span>大門1</span></div>
                         <!-- 2020/08/25 Wに気づかず筆記試験を終了してしまう問題対応-->
                         <div class="exam_time_row col-5 text-center">
                             <div id="exam_time_area">
@@ -96,7 +93,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <!-- コンテンツ表示領域 -->
                             <div id="content_area" class="rw_contents_area">
                                 <!-- 大問１作成 -->
-
                                 <div class="row row-0 content01_row">
                                     <div class="col-12">
                                         <div class="exam_set_no">(1)</div>
@@ -190,6 +186,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <button id="next" class="next btn_move" title="次の問題へ">次の問題へ ▼</button>
                 </div>
                 <!-- end:exam_contents-->
+
                 <div id="answer_frame">
                     <div id="answer_area">
                         <div id="answer_arrow_img_area"><img src="./リーディング_files/icon_left.png" class="icon-left"><img src="./リーディング_files/icon_right.png" class="icon-right"></div>
@@ -198,1286 +195,1173 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         </div>
                         <div class="row row-0">
                             <!-- 解答欄表示領域 -->
-                            <div id="answer_panle" class="rw_answer_panle" style="display: none;">
-                                <div class="row row-0">
-                                    <div class="col-12">
-                                        <div class="answer_list_area row row-0">
-                                            <div class="col-1"><img src="./リーディング_files/010_2.png" class="question_img"></div>
-                                            <div class="col-11 answer_lst_question">
-                                                <div class="q_list1 row row-0 answer_list_tr">
-                                                    <div class="col-2 answer_list_td view_question"><u class="direct_item" set_q="1" fno="10" qno="1" sno="1">( 1 )</u></div>
-                                                    <div class="col-1 list_check_review view_question"><input type="checkbox" class="check_review" id="list_check_1" sno="1"></div>
-                                                    <div class="col-8 answer_button_list_td view_question" qno="1">
-                                                        <button type="button" class="answer_button_list" ano="1">1</button>
-                                                        <button type="button" class="answer_button_list" ano="2">2</button>
-                                                        <button type="button" class="answer_button_list" ano="3">3</button>
-                                                        <button type="button" class="answer_button_list" ano="4">4</button>
+                            <form action="finish.html" method="post">
+                                <div id="answer_panle" class="rw_answer_panle" style="display: none;">
+                                    <div class="row row-0">
+                                        <div class="col-12">
+                                            <div class="answer_list_area row row-0">
+                                                <div class="col-1"><img src="./リーディング_files/010_2.png" class="question_img"></div>
+                                                <div class="col-11 answer_lst_question">
+                                                    <div class="q_list1 row row-0 answer_list_tr">
+                                                        <div class="col-2 answer_list_td view_question"><u class="direct_item" set_q="1" fno="10" qno="1" sno="1">( 1 )</u></div>
+                                                        <div class="col-1 list_check_review view_question"><input type="checkbox" class="check_review" id="list_check_1" sno="1"></div>
+                                                        <div class="col-8 answer_button_list_td view_question" qno="1">
+                                                            <button type="button" class="answer_button_list" ano="1">1</button>
+                                                            <button type="button" class="answer_button_list" ano="2">2</button>
+                                                            <button type="button" class="answer_button_list" ano="3">3</button>
+                                                            <button type="button" class="answer_button_list" ano="4">4</button>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                <div class="q_list1 row row-0 answer_list_tr">
-                                                    <div class="col-2 answer_list_td view_question"><u class="direct_item" set_q="1" fno="10" qno="2" sno="2">( 2 )</u></div>
-                                                    <div class="col-1 list_check_review view_question"><input type="checkbox" class="check_review" id="list_check_2" sno="2"></div>
-                                                    <div class="col-8 answer_button_list_td view_question" qno="2">
-                                                        <button type="button" class="answer_button_list" ano="1">1</button>
-                                                        <button type="button" class="answer_button_list" ano="2">2</button>
-                                                        <button type="button" class="answer_button_list" ano="3">3</button>
-                                                        <button type="button" class="answer_button_list" ano="4">4</button>
+                                                    <div class="q_list1 row row-0 answer_list_tr">
+                                                        <div class="col-2 answer_list_td view_question"><u class="direct_item" set_q="1" fno="10" qno="2" sno="2">( 2 )</u></div>
+                                                        <div class="col-1 list_check_review view_question"><input type="checkbox" class="check_review" id="list_check_2" sno="2"></div>
+                                                        <div class="col-8 answer_button_list_td view_question" qno="2">
+                                                            <button type="button" class="answer_button_list" ano="1">1</button>
+                                                            <button type="button" class="answer_button_list" ano="2">2</button>
+                                                            <button type="button" class="answer_button_list" ano="3">3</button>
+                                                            <button type="button" class="answer_button_list" ano="4">4</button>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                <div class="q_list2 row row-0 answer_list_tr">
-                                                    <div class="col-2 answer_list_td"><u class="direct_item" set_q="2" fno="10" qno="3" sno="3">( 3 )</u></div>
-                                                    <div class="col-1 list_check_review"><input type="checkbox" class="check_review" id="list_check_3" sno="3"></div>
-                                                    <div class="col-8 answer_button_list_td" qno="3">
-                                                        <button type="button" class="answer_button_list" ano="1">1</button>
-                                                        <button type="button" class="answer_button_list" ano="2">2</button>
-                                                        <button type="button" class="answer_button_list" ano="3">3</button>
-                                                        <button type="button" class="answer_button_list" ano="4">4</button>
+                                                    <div class="q_list2 row row-0 answer_list_tr">
+                                                        <div class="col-2 answer_list_td"><u class="direct_item" set_q="2" fno="10" qno="3" sno="3">( 3 )</u></div>
+                                                        <div class="col-1 list_check_review"><input type="checkbox" class="check_review" id="list_check_3" sno="3"></div>
+                                                        <div class="col-8 answer_button_list_td" qno="3">
+                                                            <button type="button" class="answer_button_list" ano="1">1</button>
+                                                            <button type="button" class="answer_button_list" ano="2">2</button>
+                                                            <button type="button" class="answer_button_list" ano="3">3</button>
+                                                            <button type="button" class="answer_button_list" ano="4">4</button>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                <div class="q_list2 row row-0 answer_list_tr">
-                                                    <div class="col-2 answer_list_td"><u class="direct_item" set_q="2" fno="10" qno="4" sno="4">( 4 )</u></div>
-                                                    <div class="col-1 list_check_review"><input type="checkbox" class="check_review" id="list_check_4" sno="4"></div>
-                                                    <div class="col-8 answer_button_list_td" qno="4">
-                                                        <button type="button" class="answer_button_list" ano="1">1</button>
-                                                        <button type="button" class="answer_button_list" ano="2">2</button>
-                                                        <button type="button" class="answer_button_list" ano="3">3</button>
-                                                        <button type="button" class="answer_button_list" ano="4">4</button>
+                                                    <div class="q_list2 row row-0 answer_list_tr">
+                                                        <div class="col-2 answer_list_td"><u class="direct_item" set_q="2" fno="10" qno="4" sno="4">( 4 )</u></div>
+                                                        <div class="col-1 list_check_review"><input type="checkbox" class="check_review" id="list_check_4" sno="4"></div>
+                                                        <div class="col-8 answer_button_list_td" qno="4">
+                                                            <button type="button" class="answer_button_list" ano="1">1</button>
+                                                            <button type="button" class="answer_button_list" ano="2">2</button>
+                                                            <button type="button" class="answer_button_list" ano="3">3</button>
+                                                            <button type="button" class="answer_button_list" ano="4">4</button>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                <div class="q_list3 row row-0 answer_list_tr">
-                                                    <div class="col-2 answer_list_td"><u class="direct_item" set_q="3" fno="10" qno="5" sno="5">( 5 )</u></div>
-                                                    <div class="col-1 list_check_review"><input type="checkbox" class="check_review" id="list_check_5" sno="5"></div>
-                                                    <div class="col-8 answer_button_list_td" qno="5">
-                                                        <button type="button" class="answer_button_list" ano="1">1</button>
-                                                        <button type="button" class="answer_button_list" ano="2">2</button>
-                                                        <button type="button" class="answer_button_list" ano="3">3</button>
-                                                        <button type="button" class="answer_button_list" ano="4">4</button>
+                                                    <div class="q_list3 row row-0 answer_list_tr">
+                                                        <div class="col-2 answer_list_td"><u class="direct_item" set_q="3" fno="10" qno="5" sno="5">( 5 )</u></div>
+                                                        <div class="col-1 list_check_review"><input type="checkbox" class="check_review" id="list_check_5" sno="5"></div>
+                                                        <div class="col-8 answer_button_list_td" qno="5">
+                                                            <button type="button" class="answer_button_list" ano="1">1</button>
+                                                            <button type="button" class="answer_button_list" ano="2">2</button>
+                                                            <button type="button" class="answer_button_list" ano="3">3</button>
+                                                            <button type="button" class="answer_button_list" ano="4">4</button>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                <div class="q_list3 row row-0 answer_list_tr">
-                                                    <div class="col-2 answer_list_td"><u class="direct_item" set_q="3" fno="10" qno="6" sno="6">( 6 )</u></div>
-                                                    <div class="col-1 list_check_review"><input type="checkbox" class="check_review" id="list_check_6" sno="6"></div>
-                                                    <div class="col-8 answer_button_list_td" qno="6">
-                                                        <button type="button" class="answer_button_list" ano="1">1</button>
-                                                        <button type="button" class="answer_button_list" ano="2">2</button>
-                                                        <button type="button" class="answer_button_list" ano="3">3</button>
-                                                        <button type="button" class="answer_button_list" ano="4">4</button>
+                                                    <div class="q_list3 row row-0 answer_list_tr">
+                                                        <div class="col-2 answer_list_td"><u class="direct_item" set_q="3" fno="10" qno="6" sno="6">( 6 )</u></div>
+                                                        <div class="col-1 list_check_review"><input type="checkbox" class="check_review" id="list_check_6" sno="6"></div>
+                                                        <div class="col-8 answer_button_list_td" qno="6">
+                                                            <button type="button" class="answer_button_list" ano="1">1</button>
+                                                            <button type="button" class="answer_button_list" ano="2">2</button>
+                                                            <button type="button" class="answer_button_list" ano="3">3</button>
+                                                            <button type="button" class="answer_button_list" ano="4">4</button>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                <div class="q_list4 row row-0 answer_list_tr">
-                                                    <div class="col-2 answer_list_td"><u class="direct_item" set_q="4" fno="10" qno="7" sno="7">( 7 )</u></div>
-                                                    <div class="col-1 list_check_review"><input type="checkbox" class="check_review" id="list_check_7" sno="7"></div>
-                                                    <div class="col-8 answer_button_list_td" qno="7">
-                                                        <button type="button" class="answer_button_list" ano="1">1</button>
-                                                        <button type="button" class="answer_button_list" ano="2">2</button>
-                                                        <button type="button" class="answer_button_list" ano="3">3</button>
-                                                        <button type="button" class="answer_button_list" ano="4">4</button>
+                                                    <div class="q_list4 row row-0 answer_list_tr">
+                                                        <div class="col-2 answer_list_td"><u class="direct_item" set_q="4" fno="10" qno="7" sno="7">( 7 )</u></div>
+                                                        <div class="col-1 list_check_review"><input type="checkbox" class="check_review" id="list_check_7" sno="7"></div>
+                                                        <div class="col-8 answer_button_list_td" qno="7">
+                                                            <button type="button" class="answer_button_list" ano="1">1</button>
+                                                            <button type="button" class="answer_button_list" ano="2">2</button>
+                                                            <button type="button" class="answer_button_list" ano="3">3</button>
+                                                            <button type="button" class="answer_button_list" ano="4">4</button>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                <div class="q_list4 row row-0 answer_list_tr">
-                                                    <div class="col-2 answer_list_td"><u class="direct_item" set_q="4" fno="10" qno="8" sno="8">( 8 )</u></div>
-                                                    <div class="col-1 list_check_review"><input type="checkbox" class="check_review" id="list_check_8" sno="8"></div>
-                                                    <div class="col-8 answer_button_list_td" qno="8">
-                                                        <button type="button" class="answer_button_list" ano="1">1</button>
-                                                        <button type="button" class="answer_button_list" ano="2">2</button>
-                                                        <button type="button" class="answer_button_list" ano="3">3</button>
-                                                        <button type="button" class="answer_button_list" ano="4">4</button>
+                                                    <div class="q_list4 row row-0 answer_list_tr">
+                                                        <div class="col-2 answer_list_td"><u class="direct_item" set_q="4" fno="10" qno="8" sno="8">( 8 )</u></div>
+                                                        <div class="col-1 list_check_review"><input type="checkbox" class="check_review" id="list_check_8" sno="8"></div>
+                                                        <div class="col-8 answer_button_list_td" qno="8">
+                                                            <button type="button" class="answer_button_list" ano="1">1</button>
+                                                            <button type="button" class="answer_button_list" ano="2">2</button>
+                                                            <button type="button" class="answer_button_list" ano="3">3</button>
+                                                            <button type="button" class="answer_button_list" ano="4">4</button>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                <div class="q_list5 row row-0 answer_list_tr">
-                                                    <div class="col-2 answer_list_td"><u class="direct_item" set_q="5" fno="10" qno="9" sno="9">( 9 )</u></div>
-                                                    <div class="col-1 list_check_review"><input type="checkbox" class="check_review" id="list_check_9" sno="9"></div>
-                                                    <div class="col-8 answer_button_list_td" qno="9">
-                                                        <button type="button" class="answer_button_list" ano="1">1</button>
-                                                        <button type="button" class="answer_button_list" ano="2">2</button>
-                                                        <button type="button" class="answer_button_list" ano="3">3</button>
-                                                        <button type="button" class="answer_button_list" ano="4">4</button>
+                                                    <div class="q_list5 row row-0 answer_list_tr">
+                                                        <div class="col-2 answer_list_td"><u class="direct_item" set_q="5" fno="10" qno="9" sno="9">( 9 )</u></div>
+                                                        <div class="col-1 list_check_review"><input type="checkbox" class="check_review" id="list_check_9" sno="9"></div>
+                                                        <div class="col-8 answer_button_list_td" qno="9">
+                                                            <button type="button" class="answer_button_list" ano="1">1</button>
+                                                            <button type="button" class="answer_button_list" ano="2">2</button>
+                                                            <button type="button" class="answer_button_list" ano="3">3</button>
+                                                            <button type="button" class="answer_button_list" ano="4">4</button>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                <div class="q_list5 row row-0 answer_list_tr">
-                                                    <div class="col-2 answer_list_td"><u class="direct_item" set_q="5" fno="10" qno="10" sno="10">( 10 )</u></div>
-                                                    <div class="col-1 list_check_review"><input type="checkbox" class="check_review" id="list_check_10" sno="10"></div>
-                                                    <div class="col-8 answer_button_list_td" qno="10">
-                                                        <button type="button" class="answer_button_list" ano="1">1</button>
-                                                        <button type="button" class="answer_button_list" ano="2">2</button>
-                                                        <button type="button" class="answer_button_list" ano="3">3</button>
-                                                        <button type="button" class="answer_button_list" ano="4">4</button>
+                                                    <div class="q_list5 row row-0 answer_list_tr">
+                                                        <div class="col-2 answer_list_td"><u class="direct_item" set_q="5" fno="10" qno="10" sno="10">( 10 )</u></div>
+                                                        <div class="col-1 list_check_review"><input type="checkbox" class="check_review" id="list_check_10" sno="10"></div>
+                                                        <div class="col-8 answer_button_list_td" qno="10">
+                                                            <button type="button" class="answer_button_list" ano="1">1</button>
+                                                            <button type="button" class="answer_button_list" ano="2">2</button>
+                                                            <button type="button" class="answer_button_list" ano="3">3</button>
+                                                            <button type="button" class="answer_button_list" ano="4">4</button>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                <div class="q_list6 row row-0 answer_list_tr">
-                                                    <div class="col-2 answer_list_td"><u class="direct_item" set_q="6" fno="10" qno="11" sno="11">( 11 )</u></div>
-                                                    <div class="col-1 list_check_review"><input type="checkbox" class="check_review" id="list_check_11" sno="11"></div>
-                                                    <div class="col-8 answer_button_list_td" qno="11">
-                                                        <button type="button" class="answer_button_list" ano="1">1</button>
-                                                        <button type="button" class="answer_button_list" ano="2">2</button>
-                                                        <button type="button" class="answer_button_list" ano="3">3</button>
-                                                        <button type="button" class="answer_button_list" ano="4">4</button>
+                                                    <div class="q_list6 row row-0 answer_list_tr">
+                                                        <div class="col-2 answer_list_td"><u class="direct_item" set_q="6" fno="10" qno="11" sno="11">( 11 )</u></div>
+                                                        <div class="col-1 list_check_review"><input type="checkbox" class="check_review" id="list_check_11" sno="11"></div>
+                                                        <div class="col-8 answer_button_list_td" qno="11">
+                                                            <button type="button" class="answer_button_list" ano="1">1</button>
+                                                            <button type="button" class="answer_button_list" ano="2">2</button>
+                                                            <button type="button" class="answer_button_list" ano="3">3</button>
+                                                            <button type="button" class="answer_button_list" ano="4">4</button>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                <div class="q_list6 row row-0 answer_list_tr">
-                                                    <div class="col-2 answer_list_td"><u class="direct_item" set_q="6" fno="10" qno="12" sno="12">( 12 )</u></div>
-                                                    <div class="col-1 list_check_review"><input type="checkbox" class="check_review" id="list_check_12" sno="12"></div>
-                                                    <div class="col-8 answer_button_list_td" qno="12">
-                                                        <button type="button" class="answer_button_list" ano="1">1</button>
-                                                        <button type="button" class="answer_button_list" ano="2">2</button>
-                                                        <button type="button" class="answer_button_list" ano="3">3</button>
-                                                        <button type="button" class="answer_button_list" ano="4">4</button>
+                                                    <div class="q_list6 row row-0 answer_list_tr">
+                                                        <div class="col-2 answer_list_td"><u class="direct_item" set_q="6" fno="10" qno="12" sno="12">( 12 )</u></div>
+                                                        <div class="col-1 list_check_review"><input type="checkbox" class="check_review" id="list_check_12" sno="12"></div>
+                                                        <div class="col-8 answer_button_list_td" qno="12">
+                                                            <button type="button" class="answer_button_list" ano="1">1</button>
+                                                            <button type="button" class="answer_button_list" ano="2">2</button>
+                                                            <button type="button" class="answer_button_list" ano="3">3</button>
+                                                            <button type="button" class="answer_button_list" ano="4">4</button>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                <div class="q_list7 row row-0 answer_list_tr">
-                                                    <div class="col-2 answer_list_td"><u class="direct_item" set_q="7" fno="10" qno="13" sno="13">( 13 )</u></div>
-                                                    <div class="col-1 list_check_review"><input type="checkbox" class="check_review" id="list_check_13" sno="13"></div>
-                                                    <div class="col-8 answer_button_list_td" qno="13">
-                                                        <button type="button" class="answer_button_list" ano="1">1</button>
-                                                        <button type="button" class="answer_button_list" ano="2">2</button>
-                                                        <button type="button" class="answer_button_list" ano="3">3</button>
-                                                        <button type="button" class="answer_button_list" ano="4">4</button>
+                                                    <div class="q_list7 row row-0 answer_list_tr">
+                                                        <div class="col-2 answer_list_td"><u class="direct_item" set_q="7" fno="10" qno="13" sno="13">( 13 )</u></div>
+                                                        <div class="col-1 list_check_review"><input type="checkbox" class="check_review" id="list_check_13" sno="13"></div>
+                                                        <div class="col-8 answer_button_list_td" qno="13">
+                                                            <button type="button" class="answer_button_list" ano="1">1</button>
+                                                            <button type="button" class="answer_button_list" ano="2">2</button>
+                                                            <button type="button" class="answer_button_list" ano="3">3</button>
+                                                            <button type="button" class="answer_button_list" ano="4">4</button>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                <div class="q_list7 row row-0 answer_list_tr">
-                                                    <div class="col-2 answer_list_td"><u class="direct_item" set_q="7" fno="10" qno="14" sno="14">( 14 )</u></div>
-                                                    <div class="col-1 list_check_review"><input type="checkbox" class="check_review" id="list_check_14" sno="14"></div>
-                                                    <div class="col-8 answer_button_list_td" qno="14">
-                                                        <button type="button" class="answer_button_list" ano="1">1</button>
-                                                        <button type="button" class="answer_button_list" ano="2">2</button>
-                                                        <button type="button" class="answer_button_list" ano="3">3</button>
-                                                        <button type="button" class="answer_button_list" ano="4">4</button>
+                                                    <div class="q_list7 row row-0 answer_list_tr">
+                                                        <div class="col-2 answer_list_td"><u class="direct_item" set_q="7" fno="10" qno="14" sno="14">( 14 )</u></div>
+                                                        <div class="col-1 list_check_review"><input type="checkbox" class="check_review" id="list_check_14" sno="14"></div>
+                                                        <div class="col-8 answer_button_list_td" qno="14">
+                                                            <button type="button" class="answer_button_list" ano="1">1</button>
+                                                            <button type="button" class="answer_button_list" ano="2">2</button>
+                                                            <button type="button" class="answer_button_list" ano="3">3</button>
+                                                            <button type="button" class="answer_button_list" ano="4">4</button>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                <div class="q_list8 row row-0 answer_list_tr">
-                                                    <div class="col-2 answer_list_td"><u class="direct_item" set_q="8" fno="10" qno="15" sno="15">( 15 )</u></div>
-                                                    <div class="col-1 list_check_review"><input type="checkbox" class="check_review" id="list_check_15" sno="15"></div>
-                                                    <div class="col-8 answer_button_list_td" qno="15">
-                                                        <button type="button" class="answer_button_list" ano="1">1</button>
-                                                        <button type="button" class="answer_button_list" ano="2">2</button>
-                                                        <button type="button" class="answer_button_list" ano="3">3</button>
-                                                        <button type="button" class="answer_button_list" ano="4">4</button>
+                                                    <div class="q_list8 row row-0 answer_list_tr">
+                                                        <div class="col-2 answer_list_td"><u class="direct_item" set_q="8" fno="10" qno="15" sno="15">( 15 )</u></div>
+                                                        <div class="col-1 list_check_review"><input type="checkbox" class="check_review" id="list_check_15" sno="15"></div>
+                                                        <div class="col-8 answer_button_list_td" qno="15">
+                                                            <button type="button" class="answer_button_list" ano="1">1</button>
+                                                            <button type="button" class="answer_button_list" ano="2">2</button>
+                                                            <button type="button" class="answer_button_list" ano="3">3</button>
+                                                            <button type="button" class="answer_button_list" ano="4">4</button>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                <div class="q_list8 row row-0 answer_list_tr">
-                                                    <div class="col-2 answer_list_td"><u class="direct_item" set_q="8" fno="10" qno="16" sno="16">( 16 )</u></div>
-                                                    <div class="col-1 list_check_review"><input type="checkbox" class="check_review" id="list_check_16" sno="16"></div>
-                                                    <div class="col-8 answer_button_list_td" qno="16">
-                                                        <button type="button" class="answer_button_list" ano="1">1</button>
-                                                        <button type="button" class="answer_button_list" ano="2">2</button>
-                                                        <button type="button" class="answer_button_list" ano="3">3</button>
-                                                        <button type="button" class="answer_button_list" ano="4">4</button>
+                                                    <div class="q_list8 row row-0 answer_list_tr">
+                                                        <div class="col-2 answer_list_td"><u class="direct_item" set_q="8" fno="10" qno="16" sno="16">( 16 )</u></div>
+                                                        <div class="col-1 list_check_review"><input type="checkbox" class="check_review" id="list_check_16" sno="16"></div>
+                                                        <div class="col-8 answer_button_list_td" qno="16">
+                                                            <button type="button" class="answer_button_list" ano="1">1</button>
+                                                            <button type="button" class="answer_button_list" ano="2">2</button>
+                                                            <button type="button" class="answer_button_list" ano="3">3</button>
+                                                            <button type="button" class="answer_button_list" ano="4">4</button>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                <div class="q_list9 row row-0 answer_list_tr">
-                                                    <div class="col-2 answer_list_td"><u class="direct_item" set_q="9" fno="10" qno="17" sno="17">( 17 )</u></div>
-                                                    <div class="col-1 list_check_review"><input type="checkbox" class="check_review" id="list_check_17" sno="17"></div>
-                                                    <div class="col-8 answer_button_list_td" qno="17">
-                                                        <button type="button" class="answer_button_list" ano="1">1</button>
-                                                        <button type="button" class="answer_button_list" ano="2">2</button>
-                                                        <button type="button" class="answer_button_list" ano="3">3</button>
-                                                        <button type="button" class="answer_button_list" ano="4">4</button>
+                                                    <div class="q_list9 row row-0 answer_list_tr">
+                                                        <div class="col-2 answer_list_td"><u class="direct_item" set_q="9" fno="10" qno="17" sno="17">( 17 )</u></div>
+                                                        <div class="col-1 list_check_review"><input type="checkbox" class="check_review" id="list_check_17" sno="17"></div>
+                                                        <div class="col-8 answer_button_list_td" qno="17">
+                                                            <button type="button" class="answer_button_list" ano="1">1</button>
+                                                            <button type="button" class="answer_button_list" ano="2">2</button>
+                                                            <button type="button" class="answer_button_list" ano="3">3</button>
+                                                            <button type="button" class="answer_button_list" ano="4">4</button>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                <div class="q_list9 row row-0 answer_list_tr">
-                                                    <div class="col-2 answer_list_td"><u class="direct_item" set_q="9" fno="10" qno="18" sno="18">( 18 )</u></div>
-                                                    <div class="col-1 list_check_review"><input type="checkbox" class="check_review" id="list_check_18" sno="18"></div>
-                                                    <div class="col-8 answer_button_list_td" qno="18">
-                                                        <button type="button" class="answer_button_list" ano="1">1</button>
-                                                        <button type="button" class="answer_button_list" ano="2">2</button>
-                                                        <button type="button" class="answer_button_list" ano="3">3</button>
-                                                        <button type="button" class="answer_button_list" ano="4">4</button>
+                                                    <div class="q_list9 row row-0 answer_list_tr">
+                                                        <div class="col-2 answer_list_td"><u class="direct_item" set_q="9" fno="10" qno="18" sno="18">( 18 )</u></div>
+                                                        <div class="col-1 list_check_review"><input type="checkbox" class="check_review" id="list_check_18" sno="18"></div>
+                                                        <div class="col-8 answer_button_list_td" qno="18">
+                                                            <button type="button" class="answer_button_list" ano="1">1</button>
+                                                            <button type="button" class="answer_button_list" ano="2">2</button>
+                                                            <button type="button" class="answer_button_list" ano="3">3</button>
+                                                            <button type="button" class="answer_button_list" ano="4">4</button>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                <div class="q_list10 row row-0 answer_list_tr">
-                                                    <div class="col-2 answer_list_td"><u class="direct_item" set_q="10" fno="10" qno="19" sno="19">( 19 )</u></div>
-                                                    <div class="col-1 list_check_review"><input type="checkbox" class="check_review" id="list_check_19" sno="19"></div>
-                                                    <div class="col-8 answer_button_list_td" qno="19">
-                                                        <button type="button" class="answer_button_list" ano="1">1</button>
-                                                        <button type="button" class="answer_button_list" ano="2">2</button>
-                                                        <button type="button" class="answer_button_list" ano="3">3</button>
-                                                        <button type="button" class="answer_button_list" ano="4">4</button>
+                                                    <div class="q_list10 row row-0 answer_list_tr">
+                                                        <div class="col-2 answer_list_td"><u class="direct_item" set_q="10" fno="10" qno="19" sno="19">( 19 )</u></div>
+                                                        <div class="col-1 list_check_review"><input type="checkbox" class="check_review" id="list_check_19" sno="19"></div>
+                                                        <div class="col-8 answer_button_list_td" qno="19">
+                                                            <button type="button" class="answer_button_list" ano="1">1</button>
+                                                            <button type="button" class="answer_button_list" ano="2">2</button>
+                                                            <button type="button" class="answer_button_list" ano="3">3</button>
+                                                            <button type="button" class="answer_button_list" ano="4">4</button>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                <div class="q_list10 row row-0 answer_list_tr">
-                                                    <div class="col-2 answer_list_td"><u class="direct_item" set_q="10" fno="10" qno="20" sno="20">( 20 )</u></div>
-                                                    <div class="col-1 list_check_review"><input type="checkbox" class="check_review" id="list_check_20" sno="20"></div>
-                                                    <div class="col-8 answer_button_list_td" qno="20">
-                                                        <button type="button" class="answer_button_list" ano="1">1</button>
-                                                        <button type="button" class="answer_button_list" ano="2">2</button>
-                                                        <button type="button" class="answer_button_list" ano="3">3</button>
-                                                        <button type="button" class="answer_button_list" ano="4">4</button>
+                                                    <div class="q_list10 row row-0 answer_list_tr">
+                                                        <div class="col-2 answer_list_td"><u class="direct_item" set_q="10" fno="10" qno="20" sno="20">( 20 )</u></div>
+                                                        <div class="col-1 list_check_review"><input type="checkbox" class="check_review" id="list_check_20" sno="20"></div>
+                                                        <div class="col-8 answer_button_list_td" qno="20">
+                                                            <button type="button" class="answer_button_list" ano="1">1</button>
+                                                            <button type="button" class="answer_button_list" ano="2">2</button>
+                                                            <button type="button" class="answer_button_list" ano="3">3</button>
+                                                            <button type="button" class="answer_button_list" ano="4">4</button>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
 
-                                        <div class="row row-0">
-                                            <label for="nickname">　お名前　　　</label>
-                                            <input type="text" name="nickname">
-                                        </div>
+                                            <div class="row row-0">
+                                                <label for="nickname">お名前</label>
+                                                <input type="text" name="nickname">
+                                            </div>
 
-                                        <div class="row row-0">
-                                            <div class="col-12 text-center reding_writing_end_area">
-                                                <button type="submit">回答を送信</button>
+                                            <div class="row row-0">
+                                                <div class="col-12 text-center reding_writing_end_area">
+                                                    <input type="submit" value="回答を送信">
+                                                </div>
                                             </div>
                                         </div>
+                                        <!--end:answer_panle-->
                                     </div>
-                                    <!--end:answer_panle-->
+                                    <!--end:row-->
                                 </div>
-                                <!--end:row-->
-                            </div>
-                            <!--end:answer_area-->
+                                <!--end:answer_area-->
+                            </form>
                         </div>
                         <!--end:answer_frame-->
                     </div>
                     <!--end:exam_contents_wrap-->
 
-                    <div class="row row-0">
-                        <div class="col-12">
-                            <!-- 画面制御領域 -->
-                            <!-- 2020/01/28 FLASH版とデザイン差異のため修正-->
-                            <button id="last" class="btn_move btn_hide" title="筆記終了">筆記終了 ▼</button>
+                    <div class=" row row-0 ">
+                        <div class="col-12 ">
+                            <button id="last " class="btn_move btn_hide " title="筆記終了 ">筆記終了 ▼</button>
                             <!-- 2020/01/28 FLASH版とデザイン差異のため修正-->
                         </div>
                     </div>
 
                 </div>
                 <!-- end:container-fluid -->
-                <!-- /////////////////////////////////////////////////////////////////////////
-	終了画面
-	//////////////////////////////////////////////////////////////////////////////-->
-                <div class="col-12  align-self-center h-100" id="other_content">
-                    <div id="bg" style="height: 100%;">
-                        <div id="other_title"><img id="other_logo" src="./リーディング_files/eiken_CBT.png"> 試験終了</div>
-
-                        <div id="other_cnt">
-                            <div class="row row-0">
-                                <div class="col-12 text-center align-self-center result_txt">
-                                    試験が終了しました。
-                                </div>
-                            </div>
-                            <div class="row row-0">
-                                <div class="col-12 text-center align-self-center btn_result_area">
-                                    <button typw="button" id="btn_result">次へ</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <!-- ////////////////////////////////////////////////////////////////////////
             </div>
             <!-- end:player -->
 
 
 
-            <!-- /////////////////////////////////////////////////////////////////////////
+                <!-- /////////////////////////////////////////////////////////////////////////
 ans_list
 //////////////////////////////////////////////////////////////////////////////-->
-            <section id="ans_list">
-                <article id="q1" class="wr_contents_area">
+                <section id="ans_list">
+                    <article id="q1" class="wr_contents_area">
 
-                    <div class="row row-0 content01_row">
-                        <div class="col-12">
-                            <div class="exam_set_no">(1)</div>
-                            <div class="row row-0">
-                                <div class="col-11">
-                                    <div class="exam_item_q">Josh and Samantha wanted to do their homework together this weekend, but they could not find a time to meet. They decided to work ( ) and check their answers before class on Monday.</div>
-                                    <div class="exam_select">
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="1" ano="1">1</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>noisily</div>
+                        <div class="row row-0 content01_row">
+                            <div class="col-12">
+                                <div class="exam_set_no">(1)</div>
+                                <div class="row row-0">
+                                    <div class="col-11">
+                                        <div class="exam_item_q">Josh and Samantha wanted to do their homework together this weekend, but they could not find a time to meet. They decided to work ( ) and check their answers before class on Monday.</div>
+                                        <div class="exam_select">
+                                            <div class="exam_answer_area row row-0">
+                                                <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="1" ano="1">1</button></div>
+                                                <div class="col-10 align-self-center">
+                                                    <div>noisily</div>
+                                                </div>
+                                            </div>
+                                            <div class="exam_answer_area row row-0">
+                                                <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="1" ano="2">2</button></div>
+                                                <div class="col-10 align-self-center">
+                                                    <div>exactly</div>
+                                                </div>
+                                            </div>
+                                            <div class="exam_answer_area row row-0 ">
+                                                <div class="select_btn_area col-1 "><button class="answer_button " type="button " qno="1 " ano="3 ">3</button></div>
+                                                <div class="col-10 align-self-center ">
+                                                    <div>clearly</div>
+                                                </div>
+                                            </div>
+                                            <div class="exam_answer_area row row-0 ">
+                                                <div class="select_btn_area col-1 "><button class="answer_button " type="button " qno="1 " ano="4 ">4</button></div>
+                                                <div class="col-10 align-self-center ">
+                                                    <div>separately</div>
+                                                </div>
                                             </div>
                                         </div>
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="1" ano="2">2</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>exactly</div>
-                                            </div>
-                                        </div>
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="1" ano="3">3</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>clearly</div>
-                                            </div>
-                                        </div>
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="1" ano="4">4</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>separately</div>
-                                            </div>
-                                        </div>
+                                        <div class="review_area"><input type="checkbox" class="answer_check_review" id="check_1" sno="1" value="1"><label class="review" for="check_1">あとで見直す</label></div>
                                     </div>
-                                    <div class="review_area"><input type="checkbox" class="answer_check_review" id="check_1" sno="1" value="1"><label class="review" for="check_1">あとで見直す</label></div>
+                                    <!-- end:col-11-->
+                                    <div class="col-1"></div>
                                 </div>
-                                <!-- end:col-11-->
-                                <div class="col-1"></div>
+                                <!-- end:row-->
                             </div>
-                            <!-- end:row-->
+                            <!-- end:col-12-->
                         </div>
-                        <!-- end:col-12-->
-                    </div>
-                    <!-- end:content01_row-->
-                    <br class="">
-                    <div class="row row-0 content01_row">
-                        <div class="col-12">
-                            <div class="exam_set_no">(2)</div>
-                            <div class="row row-0">
-                                <div class="col-11">
-                                    <div class="exam_item_q">Last Saturday, Pete and his family drove to the beach. In order to avoid the heavy ( ) on the highway, they left early in the morning.</div>
-                                    <div class="exam_select">
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="2" ano="1">1</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>traffic</div>
+                        <!-- end:content01_row-->
+                        <br class="">
+                        <div class="row row-0 content01_row">
+                            <div class="col-12">
+                                <div class="exam_set_no">(2)</div>
+                                <div class="row row-0">
+                                    <div class="col-11">
+                                        <div class="exam_item_q">Last Saturday, Pete and his family drove to the beach. In order to avoid the heavy ( ) on the highway, they left early in the morning.</div>
+                                        <div class="exam_select">
+                                            <div class="exam_answer_area row row-0">
+                                                <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="2" ano="1">1</button></div>
+                                                <div class="col-10 align-self-center">
+                                                    <div>traffic</div>
+                                                </div>
+                                            </div>
+                                            <div class="exam_answer_area row row-0">
+                                                <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="2" ano="2">2</button></div>
+                                                <div class="col-10 align-self-center">
+                                                    <div>pride</div>
+                                                </div>
+                                            </div>
+                                            <div class="exam_answer_area row row-0 ">
+                                                <div class="select_btn_area col-1 "><button class="answer_button " type="button " qno="2 " ano="3 ">3</button></div>
+                                                <div class="col-10 align-self-center ">
+                                                    <div>rhythm</div>
+                                                </div>
+                                            </div>
+                                            <div class="exam_answer_area row row-0">
+                                                <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="2" ano="4">4</button></div>
+                                                <div class="col-10 align-self-center">
+                                                    <div>temple</div>
+                                                </div>
                                             </div>
                                         </div>
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="2" ano="2">2</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>pride</div>
-                                            </div>
-                                        </div>
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="2" ano="3">3</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>rhythm</div>
-                                            </div>
-                                        </div>
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="2" ano="4">4</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>temple</div>
-                                            </div>
-                                        </div>
+                                        <div class="review_area"><input type="checkbox" class="answer_check_review" id="check_2" sno="2" value="1"><label class="review" for="check_2">あとで見直す</label></div>
                                     </div>
-                                    <div class="review_area"><input type="checkbox" class="answer_check_review" id="check_2" sno="2" value="1"><label class="review" for="check_2">あとで見直す</label></div>
+                                    <div class="col-1"></div>
                                 </div>
-                                <div class="col-1"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end:content01_row-->
-                </article>
-
-                <article id="q2" class="wr_contents_area">
-
-                    <div class="row row-0 content01_row">
-                        <div class="col-12">
-                            <div class="exam_set_no">(3)</div>
-                            <div class="row row-0">
-                                <div class="col-11">
-                                    <div class="exam_item_q">A: I left my notebook somewhere. Do you have a ( ) of paper I could use to take notes? <br>B: Yes. Here you are.</div>
-                                    <div class="exam_select">
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="3" ano="1">1</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>board</div>
-                                            </div>
-                                        </div>
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="3" ano="2">2</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>flash</div>
-                                            </div>
-                                        </div>
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="3" ano="3">3</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>sheet</div>
-                                            </div>
-                                        </div>
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="3" ano="4">4</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>part</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="review_area"><input type="checkbox" class="answer_check_review" id="check_3" sno="3" value="1"><label class="review" for="check_3">あとで見直す</label></div>
-                                </div>
-                                <!-- end:col-11-->
-                                <div class="col-1"></div>
-                            </div>
-                            <!-- end:row-->
-                        </div>
-                        <!-- end:col-12-->
-                    </div>
-                    <!-- end:content01_row-->
-                    <br class="">
-                    <div class="row row-0 content01_row">
-                        <div class="col-12">
-                            <div class="exam_set_no">(4)</div>
-                            <div class="row row-0">
-                                <div class="col-11">
-                                    <div class="exam_item_q">Because William was gaining a lot of weight, his doctor ( ) him to start exercising and to eat healthier food.</div>
-                                    <div class="exam_select">
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="4" ano="1">1</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>stretched</div>
-                                            </div>
-                                        </div>
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="4" ano="2">2</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>planted</div>
-                                            </div>
-                                        </div>
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="4" ano="3">3</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>trusted</div>
-                                            </div>
-                                        </div>
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="4" ano="4">4</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>advised</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="review_area"><input type="checkbox" class="answer_check_review" id="check_4" sno="4" value="1"><label class="review" for="check_4">あとで見直す</label></div>
-                                </div>
-                                <div class="col-1"></div>
                             </div>
                         </div>
-                    </div>
-                    <!-- end:content01_row-->
-                </article>
+                        <!-- end:content01_row-->
+                    </article>
 
+                    <article id="q2" class="wr_contents_area">
 
-                <article id="q3" class="wr_contents_area">
-
-                    <div class="row row-0 content01_row">
-                        <div class="col-12">
-                            <div class="exam_set_no">(5)</div>
-                            <div class="row row-0">
-                                <div class="col-11">
-                                    <div class="exam_item_q">The teacher told the students to ( ) their chairs in a circle so that they would all be able to see each other while they talked.</div>
-                                    <div class="exam_select">
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="5" ano="1">1</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>arrange</div>
+                        <div class="row row-0 content01_row">
+                            <div class="col-12">
+                                <div class="exam_set_no">(3)</div>
+                                <div class="row row-0">
+                                    <div class="col-11">
+                                        <div class="exam_item_q">A: I left my notebook somewhere. Do you have a ( ) of paper I could use to take notes? <br>B: Yes. Here you are.</div>
+                                        <div class="exam_select">
+                                            <div class="exam_answer_area row row-0">
+                                                <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="3" ano="1">1</button></div>
+                                                <div class="col-10 align-self-center">
+                                                    <div>board</div>
+                                                </div>
+                                            </div>
+                                            <div class="exam_answer_area row row-0">
+                                                <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="3" ano="2">2</button></div>
+                                                <div class="col-10 align-self-center">
+                                                    <div>flash</div>
+                                                </div>
+                                            </div>
+                                            <div class="exam_answer_area row row-0 ">
+                                                <div class="select_btn_area col-1 "><button class="answer_button " type="button " qno="3 " ano="3 ">3</button></div>
+                                                <div class="col-10 align-self-center ">
+                                                    <div>sheet</div>
+                                                </div>
+                                            </div>
+                                            <div class="exam_answer_area row row-0 ">
+                                                <div class="select_btn_area col-1 "><button class="answer_button " type="button " qno="3 " ano="4 ">4</button></div>
+                                                <div class="col-10 align-self-center ">
+                                                    <div>part</div>
+                                                </div>
                                             </div>
                                         </div>
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="5" ano="2">2</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>block</div>
-                                            </div>
-                                        </div>
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="5" ano="3">3</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>skip</div>
-                                            </div>
-                                        </div>
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="5" ano="4">4</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>offer</div>
-                                            </div>
-                                        </div>
+                                        <div class="review_area "><input type="checkbox " class="answer_check_review " id="check_3 " sno="3 " value="1 "><label class="review " for="check_3 ">あとで見直す</label></div>
                                     </div>
-                                    <div class="review_area"><input type="checkbox" class="answer_check_review" id="check_5" sno="5" value="1"><label class="review" for="check_5">あとで見直す</label></div>
+                                    <!-- end:col-11-->
+                                    <div class="col-1 "></div>
                                 </div>
-                                <!-- end:col-11-->
-                                <div class="col-1"></div>
+                                <!-- end:row-->
                             </div>
-                            <!-- end:row-->
+                            <!-- end:col-12-->
                         </div>
-                        <!-- end:col-12-->
-                    </div>
-                    <!-- end:content01_row-->
-                    <br class="">
-                    <div class="row row-0 content01_row">
-                        <div class="col-12">
-                            <div class="exam_set_no">(6)</div>
-                            <div class="row row-0">
-                                <div class="col-11">
-                                    <div class="exam_item_q">Mike has lived in Seattle for two years. He enjoys living there, but he does not like the cool, rainy ( ).</div>
-                                    <div class="exam_select">
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="6" ano="1">1</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>climate</div>
+                        <!-- end:content01_row-->
+                        <br class=" ">
+                        <div class="row row-0 content01_row ">
+                            <div class="col-12 ">
+                                <div class="exam_set_no ">(4)</div>
+                                <div class="row row-0 ">
+                                    <div class="col-11 ">
+                                        <div class="exam_item_q ">Because William was gaining a lot of weight, his doctor ( ) him to start exercising and to eat healthier food.</div>
+                                        <div class="exam_select ">
+                                            <div class="exam_answer_area row row-0 ">
+                                                <div class="select_btn_area col-1 "><button class="answer_button " type="button " qno="4 " ano="1 ">1</button></div>
+                                                <div class="col-10 align-self-center ">
+                                                    <div>stretched</div>
+                                                </div>
+                                            </div>
+                                            <div class="exam_answer_area row row-0 ">
+                                                <div class="select_btn_area col-1 "><button class="answer_button " type="button " qno="4 " ano="2 ">2</button></div>
+                                                <div class="col-10 align-self-center ">
+                                                    <div>planted</div>
+                                                </div>
+                                            </div>
+                                            <div class="exam_answer_area row row-0 ">
+                                                <div class="select_btn_area col-1 "><button class="answer_button " type="button " qno="4 " ano="3 ">3</button></div>
+                                                <div class="col-10 align-self-center ">
+                                                    <div>trusted</div>
+                                                </div>
+                                            </div>
+                                            <div class="exam_answer_area row row-0 ">
+                                                <div class="select_btn_area col-1 "><button class="answer_button " type="button " qno="4 " ano="4 ">4</button></div>
+                                                <div class="col-10 align-self-center ">
+                                                    <div>advised</div>
+                                                </div>
                                             </div>
                                         </div>
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="6" ano="2">2</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>surface</div>
-                                            </div>
-                                        </div>
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="6" ano="3">3</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>excuse</div>
-                                            </div>
-                                        </div>
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="6" ano="4">4</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>design</div>
-                                            </div>
-                                        </div>
+                                        <div class="review_area "><input type="checkbox " class="answer_check_review " id="check_4 " sno="4 " value="1 "><label class="review " for="check_4 ">あとで見直す</label></div>
                                     </div>
-                                    <div class="review_area"><input type="checkbox" class="answer_check_review" id="check_6" sno="6" value="1"><label class="review" for="check_6">あとで見直す</label></div>
+                                    <div class="col-1 "></div>
                                 </div>
-                                <div class="col-1"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end:content01_row-->
-                </article>
-
-
-
-                <article id="q4" class="wr_contents_area">
-
-                    <div class="row row-0 content01_row">
-                        <div class="col-12">
-                            <div class="exam_set_no">(7)</div>
-                            <div class="row row-0">
-                                <div class="col-11">
-                                    <div class="exam_item_q">Ms. Kirshman was surprised at the large number of people who ( ) her lecture on gardening. There were almost no empty seats in the room.</div>
-                                    <div class="exam_select">
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="7" ano="1">1</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>sailed</div>
-                                            </div>
-                                        </div>
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="7" ano="2">2</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>attended</div>
-                                            </div>
-                                        </div>
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="7" ano="3">3</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>guarded</div>
-                                            </div>
-                                        </div>
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="7" ano="4">4</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>failed</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="review_area"><input type="checkbox" class="answer_check_review" id="check_7" sno="7" value="1"><label class="review" for="check_7">あとで見直す</label></div>
-                                </div>
-                                <!-- end:col-11-->
-                                <div class="col-1"></div>
-                            </div>
-                            <!-- end:row-->
-                        </div>
-                        <!-- end:col-12-->
-                    </div>
-                    <!-- end:content01_row-->
-                    <br class="">
-                    <div class="row row-0 content01_row">
-                        <div class="col-12">
-                            <div class="exam_set_no">(8)</div>
-                            <div class="row row-0">
-                                <div class="col-11">
-                                    <div class="exam_item_q">A: Brad, what ( ) of music do you usually listen to? <br>B: I like hip-hop, but I also listen to jazz.</div>
-                                    <div class="exam_select">
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="8" ano="1">1</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>position</div>
-                                            </div>
-                                        </div>
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="8" ano="2">2</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>price</div>
-                                            </div>
-                                        </div>
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="8" ano="3">3</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>sort</div>
-                                            </div>
-                                        </div>
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="8" ano="4">4</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>shape</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="review_area"><input type="checkbox" class="answer_check_review" id="check_8" sno="8" value="1"><label class="review" for="check_8">あとで見直す</label></div>
-                                </div>
-                                <div class="col-1"></div>
                             </div>
                         </div>
-                    </div>
-                    <!-- end:content01_row-->
-                </article>
+                        <!-- end:content01_row-->
+                    </article>
 
-                <article id="q5" class="wr_contents_area">
 
-                    <div class="row row-0 content01_row">
-                        <div class="col-12">
-                            <div class="exam_set_no">(9)</div>
-                            <div class="row row-0">
-                                <div class="col-11">
-                                    <div class="exam_item_q">The street outside Lisa's apartment building is very ( ). It is only wide enough for one car, and trucks cannot enter at all.</div>
-                                    <div class="exam_select">
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="9" ano="1">1</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>balanced</div>
+                    <article id="q3 " class="wr_contents_area ">
+
+                        <div class="row row-0 content01_row ">
+                            <div class="col-12 ">
+                                <div class="exam_set_no ">(5)</div>
+                                <div class="row row-0 ">
+                                    <div class="col-11 ">
+                                        <div class="exam_item_q ">The teacher told the students to ( ) their chairs in a circle so that they would all be able to see each other while they talked.</div>
+                                        <div class="exam_select ">
+                                            <div class="exam_answer_area row row-0 ">
+                                                <div class="select_btn_area col-1 "><button class="answer_button " type="button " qno="5 " ano="1 ">1</button></div>
+                                                <div class="col-10 align-self-center ">
+                                                    <div>arrange</div>
+                                                </div>
+                                            </div>
+                                            <div class="exam_answer_area row row-0 ">
+                                                <div class="select_btn_area col-1 "><button class="answer_button " type="button " qno="5 " ano="2 ">2</button></div>
+                                                <div class="col-10 align-self-center ">
+                                                    <div>block</div>
+                                                </div>
+                                            </div>
+                                            <div class="exam_answer_area row row-0 ">
+                                                <div class="select_btn_area col-1 "><button class="answer_button " type="button " qno="5 " ano="3 ">3</button></div>
+                                                <div class="col-10 align-self-center ">
+                                                    <div>skip</div>
+                                                </div>
+                                            </div>
+                                            <div class="exam_answer_area row row-0 ">
+                                                <div class="select_btn_area col-1 "><button class="answer_button " type="button " qno="5 " ano="4 ">4</button></div>
+                                                <div class="col-10 align-self-center ">
+                                                    <div>offer</div>
+                                                </div>
                                             </div>
                                         </div>
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="9" ano="2">2</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>careful</div>
-                                            </div>
-                                        </div>
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="9" ano="3">3</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>narrow</div>
-                                            </div>
-                                        </div>
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="9" ano="4">4</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>suitable</div>
-                                            </div>
-                                        </div>
+                                        <div class="review_area "><input type="checkbox " class="answer_check_review " id="check_5 " sno="5 " value="1 "><label class="review " for="check_5 ">あとで見直す</label></div>
                                     </div>
-                                    <div class="review_area"><input type="checkbox" class="answer_check_review" id="check_9" sno="9" value="1"><label class="review" for="check_9">あとで見直す</label></div>
+                                    <!-- end:col-11-->
+                                    <div class="col-1 "></div>
                                 </div>
-                                <!-- end:col-11-->
-                                <div class="col-1"></div>
+                                <!-- end:row-->
                             </div>
-                            <!-- end:row-->
+                            <!-- end:col-12-->
                         </div>
-                        <!-- end:col-12-->
-                    </div>
-                    <!-- end:content01_row-->
-                    <br class="">
-                    <div class="row row-0 content01_row">
-                        <div class="col-12">
-                            <div class="exam_set_no">(10)</div>
-                            <div class="row row-0">
-                                <div class="col-11">
-                                    <div class="exam_item_q">Everyone says that Kathy ( ) her mother. They have the same large eyes and smile in the same way.</div>
-                                    <div class="exam_select">
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="10" ano="1">1</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>instructs</div>
+                        <!-- end:content01_row-->
+                        <br class=" ">
+                        <div class="row row-0 content01_row ">
+                            <div class="col-12 ">
+                                <div class="exam_set_no ">(6)</div>
+                                <div class="row row-0 ">
+                                    <div class="col-11 ">
+                                        <div class="exam_item_q ">Mike has lived in Seattle for two years. He enjoys living there, but he does not like the cool, rainy ( ).</div>
+                                        <div class="exam_select ">
+                                            <div class="exam_answer_area row row-0 ">
+                                                <div class="select_btn_area col-1 "><button class="answer_button " type="button " qno="6 " ano="1 ">1</button></div>
+                                                <div class="col-10 align-self-center ">
+                                                    <div>climate</div>
+                                                </div>
+                                            </div>
+                                            <div class="exam_answer_area row row-0 ">
+                                                <div class="select_btn_area col-1 "><button class="answer_button " type="button " qno="6 " ano="2 ">2</button></div>
+                                                <div class="col-10 align-self-center ">
+                                                    <div>surface</div>
+                                                </div>
+                                            </div>
+                                            <div class="exam_answer_area row row-0 ">
+                                                <div class="select_btn_area col-1 "><button class="answer_button " type="button " qno="6 " ano="3 ">3</button></div>
+                                                <div class="col-10 align-self-center ">
+                                                    <div>excuse</div>
+                                                </div>
+                                            </div>
+                                            <div class="exam_answer_area row row-0 ">
+                                                <div class="select_btn_area col-1 "><button class="answer_button " type="button " qno="6 " ano="4 ">4</button></div>
+                                                <div class="col-10 align-self-center ">
+                                                    <div>design</div>
+                                                </div>
                                             </div>
                                         </div>
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="10" ano="2">2</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>bothers</div>
-                                            </div>
-                                        </div>
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="10" ano="3">3</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>seeks</div>
-                                            </div>
-                                        </div>
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="10" ano="4">4</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>resembles</div>
-                                            </div>
-                                        </div>
+                                        <div class="review_area "><input type="checkbox " class="answer_check_review " id="check_6 " sno="6 " value="1 "><label class="review " for="check_6 ">あとで見直す</label></div>
                                     </div>
-                                    <div class="review_area"><input type="checkbox" class="answer_check_review" id="check_10" sno="10" value="1"><label class="review" for="check_10">あとで見直す</label></div>
+                                    <div class="col-1 "></div>
                                 </div>
-                                <div class="col-1"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end:content01_row-->
-                </article>
-
-                <article id="q6" class="wr_contents_area">
-
-                    <div class="row row-0 content01_row">
-                        <div class="col-12">
-                            <div class="exam_set_no">(11)</div>
-                            <div class="row row-0">
-                                <div class="col-11">
-                                    <div class="exam_item_q">A: Hello, Jane. Where are you? The movie will start soon. <br>B: Sorry, I'll be there before ( ). Please wait for me for five more minutes.</div>
-                                    <div class="exam_select">
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="11" ano="1">1</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>long</div>
-                                            </div>
-                                        </div>
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="11" ano="2">2</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>little</div>
-                                            </div>
-                                        </div>
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="11" ano="3">3</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>less</div>
-                                            </div>
-                                        </div>
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="11" ano="4">4</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>late</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="review_area"><input type="checkbox" class="answer_check_review" id="check_11" sno="11" value="1"><label class="review" for="check_11">あとで見直す</label></div>
-                                </div>
-                                <!-- end:col-11-->
-                                <div class="col-1"></div>
-                            </div>
-                            <!-- end:row-->
-                        </div>
-                        <!-- end:col-12-->
-                    </div>
-                    <!-- end:content01_row-->
-                    <br class="">
-                    <div class="row row-0 content01_row">
-                        <div class="col-12">
-                            <div class="exam_set_no">(12)</div>
-                            <div class="row row-0">
-                                <div class="col-11">
-                                    <div class="exam_item_q">Mark started playing a new video game. It was really exciting, so he played it all ( ) the night. The next day, he was really tired.</div>
-                                    <div class="exam_select">
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="12" ano="1">1</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>across</div>
-                                            </div>
-                                        </div>
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="12" ano="2">2</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>on</div>
-                                            </div>
-                                        </div>
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="12" ano="3">3</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>down</div>
-                                            </div>
-                                        </div>
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="12" ano="4">4</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>through</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="review_area"><input type="checkbox" class="answer_check_review" id="check_12" sno="12" value="1"><label class="review" for="check_12">あとで見直す</label></div>
-                                </div>
-                                <div class="col-1"></div>
                             </div>
                         </div>
-                    </div>
-                    <!-- end:content01_row-->
-                </article>
+                        <!-- end:content01_row-->
+                    </article>
 
-                <article id="q7" class="wr_contents_area">
 
-                    <div class="row row-0 content01_row">
-                        <div class="col-12">
-                            <div class="exam_set_no">(13)</div>
-                            <div class="row row-0">
-                                <div class="col-11">
-                                    <div class="exam_item_q">James asked his father to lend him the money to go on a trip with his friends. His father said it was ( ) the question and told James to get a part-time job instead.</div>
-                                    <div class="exam_select">
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="13" ano="1">1</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>except for</div>
+
+                    <article id="q4 " class="wr_contents_area ">
+
+                        <div class="row row-0 content01_row ">
+                            <div class="col-12 ">
+                                <div class="exam_set_no ">(7)</div>
+                                <div class="row row-0 ">
+                                    <div class="col-11 ">
+                                        <div class="exam_item_q ">Ms. Kirshman was surprised at the large number of people who ( ) her lecture on gardening. There were almost no empty seats in the room.</div>
+                                        <div class="exam_select ">
+                                            <div class="exam_answer_area row row-0 ">
+                                                <div class="select_btn_area col-1 "><button class="answer_button " type="button " qno="7 " ano="1 ">1</button></div>
+                                                <div class="col-10 align-self-center ">
+                                                    <div>sailed</div>
+                                                </div>
+                                            </div>
+                                            <div class="exam_answer_area row row-0 ">
+                                                <div class="select_btn_area col-1 "><button class="answer_button " type="button " qno="7 " ano="2 ">2</button></div>
+                                                <div class="col-10 align-self-center ">
+                                                    <div>attended</div>
+                                                </div>
+                                            </div>
+                                            <div class="exam_answer_area row row-0 ">
+                                                <div class="select_btn_area col-1 "><button class="answer_button " type="button " qno="7 " ano="3 ">3</button></div>
+                                                <div class="col-10 align-self-center ">
+                                                    <div>guarded</div>
+                                                </div>
+                                            </div>
+                                            <div class="exam_answer_area row row-0 ">
+                                                <div class="select_btn_area col-1 "><button class="answer_button " type="button " qno="7 " ano="4 ">4</button></div>
+                                                <div class="col-10 align-self-center ">
+                                                    <div>failed</div>
+                                                </div>
                                             </div>
                                         </div>
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="13" ano="2">2</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>out of</div>
-                                            </div>
-                                        </div>
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="13" ano="3">3</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>all about</div>
-                                            </div>
-                                        </div>
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="13" ano="4">4</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>next to</div>
-                                            </div>
-                                        </div>
+                                        <div class="review_area "><input type="checkbox " class="answer_check_review " id="check_7 " sno="7 " value="1 "><label class="review " for="check_7 ">あとで見直す</label></div>
                                     </div>
-                                    <div class="review_area"><input type="checkbox" class="answer_check_review" id="check_13" sno="13" value="1"><label class="review" for="check_13">あとで見直す</label></div>
+                                    <!-- end:col-11-->
+                                    <div class="col-1 "></div>
                                 </div>
-                                <!-- end:col-11-->
-                                <div class="col-1"></div>
+                                <!-- end:row-->
                             </div>
-                            <!-- end:row-->
+                            <!-- end:col-12-->
                         </div>
-                        <!-- end:col-12-->
-                    </div>
-                    <!-- end:content01_row-->
-                    <br class="">
-                    <div class="row row-0 content01_row">
-                        <div class="col-12">
-                            <div class="exam_set_no">(14)</div>
-                            <div class="row row-0">
-                                <div class="col-11">
-                                    <div class="exam_item_q">A: Let's have a barbecue in the park. <br>B: No, that would be ( ) the park's rules. We can have one in our backyard, though.</div>
-                                    <div class="exam_select">
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="14" ano="1">1</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>behind</div>
+                        <!-- end:content01_row-->
+                        <br class=" ">
+                        <div class="row row-0 content01_row ">
+                            <div class="col-12 ">
+                                <div class="exam_set_no ">(8)</div>
+                                <div class="row row-0 ">
+                                    <div class="col-11 ">
+                                        <div class="exam_item_q ">A: Brad, what ( ) of music do you usually listen to? <br>B: I like hip-hop, but I also listen to jazz.</div>
+                                        <div class="exam_select ">
+                                            <div class="exam_answer_area row row-0 ">
+                                                <div class="select_btn_area col-1 "><button class="answer_button " type="button " qno="8 " ano="1 ">1</button></div>
+                                                <div class="col-10 align-self-center ">
+                                                    <div>position</div>
+                                                </div>
+                                            </div>
+                                            <div class="exam_answer_area row row-0 ">
+                                                <div class="select_btn_area col-1 "><button class="answer_button " type="button " qno="8 " ano="2 ">2</button></div>
+                                                <div class="col-10 align-self-center ">
+                                                    <div>price</div>
+                                                </div>
+                                            </div>
+                                            <div class="exam_answer_area row row-0 ">
+                                                <div class="select_btn_area col-1 "><button class="answer_button " type="button " qno="8 " ano="3 ">3</button></div>
+                                                <div class="col-10 align-self-center ">
+                                                    <div>sort</div>
+                                                </div>
+                                            </div>
+                                            <div class="exam_answer_area row row-0 ">
+                                                <div class="select_btn_area col-1 "><button class="answer_button " type="button " qno="8 " ano="4 ">4</button></div>
+                                                <div class="col-10 align-self-center ">
+                                                    <div>shape</div>
+                                                </div>
                                             </div>
                                         </div>
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="14" ano="2">2</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>against</div>
-                                            </div>
-                                        </div>
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="14" ano="3">3</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>under</div>
-                                            </div>
-                                        </div>
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="14" ano="4">4</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>with</div>
-                                            </div>
-                                        </div>
+                                        <div class="review_area "><input type="checkbox " class="answer_check_review " id="check_8 " sno="8 " value="1 "><label class="review " for="check_8 ">あとで見直す</label></div>
                                     </div>
-                                    <div class="review_area"><input type="checkbox" class="answer_check_review" id="check_14" sno="14" value="1"><label class="review" for="check_14">あとで見直す</label></div>
+                                    <div class="col-1 "></div>
                                 </div>
-                                <div class="col-1"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end:content01_row-->
-                </article>
-
-                <article id="q8" class="wr_contents_area">
-
-                    <div class="row row-0 content01_row">
-                        <div class="col-12">
-                            <div class="exam_set_no">(15)</div>
-                            <div class="row row-0">
-                                <div class="col-11">
-                                    <div class="exam_item_q">Sam studied for his math test every evening last week. His hard work ( ) a very good score on the test.</div>
-                                    <div class="exam_select">
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="15" ano="1">1</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>looked up</div>
-                                            </div>
-                                        </div>
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="15" ano="2">2</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>resulted in</div>
-                                            </div>
-                                        </div>
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="15" ano="3">3</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>dropped by</div>
-                                            </div>
-                                        </div>
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="15" ano="4">4</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>turned off</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="review_area"><input type="checkbox" class="answer_check_review" id="check_15" sno="15" value="1"><label class="review" for="check_15">あとで見直す</label></div>
-                                </div>
-                                <!-- end:col-11-->
-                                <div class="col-1"></div>
-                            </div>
-                            <!-- end:row-->
-                        </div>
-                        <!-- end:col-12-->
-                    </div>
-                    <!-- end:content01_row-->
-                    <br class="">
-                    <div class="row row-0 content01_row">
-                        <div class="col-12">
-                            <div class="exam_set_no">(16)</div>
-                            <div class="row row-0">
-                                <div class="col-11">
-                                    <div class="exam_item_q">Helen took someone else's jacket ( ) when she left school. She went back later to return it.</div>
-                                    <div class="exam_select">
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="16" ano="1">1</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>for sure</div>
-                                            </div>
-                                        </div>
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="16" ano="2">2</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>in part</div>
-                                            </div>
-                                        </div>
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="16" ano="3">3</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>at heart</div>
-                                            </div>
-                                        </div>
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="16" ano="4">4</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>by mistake</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="review_area"><input type="checkbox" class="answer_check_review" id="check_16" sno="16" value="1"><label class="review" for="check_16">あとで見直す</label></div>
-                                </div>
-                                <div class="col-1"></div>
                             </div>
                         </div>
-                    </div>
-                    <!-- end:content01_row-->
-                </article>
+                        <!-- end:content01_row-->
+                    </article>
 
-                <article id="q9" class="wr_contents_area">
+                    <article id="q5 " class="wr_contents_area ">
 
-                    <div class="row row-0 content01_row">
-                        <div class="col-12">
-                            <div class="exam_set_no">(17)</div>
-                            <div class="row row-0">
-                                <div class="col-11">
-                                    <div class="exam_item_q">Reiko told her parents that she would call them as soon as she got to Vancouver, but she did not keep her ( ). Her parents were worried about her.</div>
-                                    <div class="exam_select">
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="17" ano="1">1</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>mind</div>
+                        <div class="row row-0 content01_row ">
+                            <div class="col-12 ">
+                                <div class="exam_set_no ">(9)</div>
+                                <div class="row row-0 ">
+                                    <div class="col-11 ">
+                                        <div class="exam_item_q ">The street outside Lisa's apartment building is very ( ). It is only wide enough for one car, and trucks cannot enter at all.</div>
+                                        <div class="exam_select ">
+                                            <div class="exam_answer_area row row-0 ">
+                                                <div class="select_btn_area col-1 "><button class="answer_button " type="button " qno="9 " ano="1 ">1</button></div>
+                                                <div class="col-10 align-self-center ">
+                                                    <div>balanced</div>
+                                                </div>
+                                            </div>
+                                            <div class="exam_answer_area row row-0 ">
+                                                <div class="select_btn_area col-1 "><button class="answer_button " type="button " qno="9 " ano="2 ">2</button></div>
+                                                <div class="col-10 align-self-center ">
+                                                    <div>careful</div>
+                                                </div>
+                                            </div>
+                                            <div class="exam_answer_area row row-0 ">
+                                                <div class="select_btn_area col-1 "><button class="answer_button " type="button " qno="9 " ano="3 ">3</button></div>
+                                                <div class="col-10 align-self-center ">
+                                                    <div>narrow</div>
+                                                </div>
+                                            </div>
+                                            <div class="exam_answer_area row row-0 ">
+                                                <div class="select_btn_area col-1 "><button class="answer_button " type="button " qno="9 " ano="4 ">4</button></div>
+                                                <div class="col-10 align-self-center ">
+                                                    <div>suitable</div>
+                                                </div>
                                             </div>
                                         </div>
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="17" ano="2">2</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>place</div>
-                                            </div>
-                                        </div>
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="17" ano="3">3</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>promise</div>
-                                            </div>
-                                        </div>
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="17" ano="4">4</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>sight</div>
-                                            </div>
-                                        </div>
+                                        <div class="review_area "><input type="checkbox " class="answer_check_review " id="check_9 " sno="9 " value="1 "><label class="review " for="check_9 ">あとで見直す</label></div>
                                     </div>
-                                    <div class="review_area"><input type="checkbox" class="answer_check_review" id="check_17" sno="17" value="1"><label class="review" for="check_17">あとで見直す</label></div>
+                                    <!-- end:col-11-->
+                                    <div class="col-1 "></div>
                                 </div>
-                                <!-- end:col-11-->
-                                <div class="col-1"></div>
+                                <!-- end:row-->
                             </div>
-                            <!-- end:row-->
+                            <!-- end:col-12-->
                         </div>
-                        <!-- end:col-12-->
-                    </div>
-                    <!-- end:content01_row-->
-                    <br class="">
-                    <div class="row row-0 content01_row">
-                        <div class="col-12">
-                            <div class="exam_set_no">(18)</div>
-                            <div class="row row-0">
-                                <div class="col-11">
-                                    <div class="exam_item_q">( ) the train home last night, Amy remembered that it was her grandfather's birthday. She went to a store by the station to buy a present for him.</div>
-                                    <div class="exam_select">
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="18" ano="1">1</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>Ridden</div>
+                        <!-- end:content01_row-->
+                        <br class=" ">
+                        <div class="row row-0 content01_row ">
+                            <div class="col-12 ">
+                                <div class="exam_set_no ">(10)</div>
+                                <div class="row row-0 ">
+                                    <div class="col-11 ">
+                                        <div class="exam_item_q ">Everyone says that Kathy ( ) her mother. They have the same large eyes and smile in the same way.</div>
+                                        <div class="exam_select ">
+                                            <div class="exam_answer_area row row-0 ">
+                                                <div class="select_btn_area col-1 "><button class="answer_button " type="button " qno="10 " ano="1 ">1</button></div>
+                                                <div class="col-10 align-self-center ">
+                                                    <div>instructs</div>
+                                                </div>
+                                            </div>
+                                            <div class="exam_answer_area row row-0 ">
+                                                <div class="select_btn_area col-1 "><button class="answer_button " type="button " qno="10 " ano="2 ">2</button></div>
+                                                <div class="col-10 align-self-center ">
+                                                    <div>bothers</div>
+                                                </div>
+                                            </div>
+                                            <div class="exam_answer_area row row-0 ">
+                                                <div class="select_btn_area col-1 "><button class="answer_button " type="button " qno="10 " ano="3 ">3</button></div>
+                                                <div class="col-10 align-self-center ">
+                                                    <div>seeks</div>
+                                                </div>
+                                            </div>
+                                            <div class="exam_answer_area row row-0 ">
+                                                <div class="select_btn_area col-1 "><button class="answer_button " type="button " qno="10 " ano="4 ">4</button></div>
+                                                <div class="col-10 align-self-center ">
+                                                    <div>resembles</div>
+                                                </div>
                                             </div>
                                         </div>
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="18" ano="2">2</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>Ride</div>
-                                            </div>
-                                        </div>
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="18" ano="3">3</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>Rode</div>
-                                            </div>
-                                        </div>
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="18" ano="4">4</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>Riding</div>
-                                            </div>
-                                        </div>
+                                        <div class="review_area "><input type="checkbox " class="answer_check_review " id="check_10 " sno="10 " value="1 "><label class="review " for="check_10 ">あとで見直す</label></div>
                                     </div>
-                                    <div class="review_area"><input type="checkbox" class="answer_check_review" id="check_18" sno="18" value="1"><label class="review" for="check_18">あとで見直す</label></div>
+                                    <div class="col-1 "></div>
                                 </div>
-                                <div class="col-1"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end:content01_row-->
-                </article>
-
-                <article id="q10" class="wr_contents_area">
-
-                    <div class="row row-0 content01_row">
-                        <div class="col-12">
-                            <div class="exam_set_no">(19)</div>
-                            <div class="row row-0">
-                                <div class="col-11">
-                                    <div class="exam_item_q">A: Have you read that book I lent you? <br>B: I'm still reading it, but I ( ) it by tomorrow morning. I'll give it back to you then.</div>
-                                    <div class="exam_select">
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="19" ano="1">1</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>will have finished</div>
-                                            </div>
-                                        </div>
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="19" ano="2">2</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>had finished</div>
-                                            </div>
-                                        </div>
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="19" ano="3">3</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>would be finished</div>
-                                            </div>
-                                        </div>
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="19" ano="4">4</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>was finishing</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="review_area"><input type="checkbox" class="answer_check_review" id="check_19" sno="19" value="1"><label class="review" for="check_19">あとで見直す</label></div>
-                                </div>
-                                <!-- end:col-11-->
-                                <div class="col-1"></div>
-                            </div>
-                            <!-- end:row-->
-                        </div>
-                        <!-- end:col-12-->
-                    </div>
-                    <!-- end:content01_row-->
-                    <br class="">
-                    <div class="row row-0 content01_row">
-                        <div class="col-12">
-                            <div class="exam_set_no">(20)</div>
-                            <div class="row row-0">
-                                <div class="col-11">
-                                    <div class="exam_item_q">Emily has three children and works every day, so she is very busy. She likes to watch TV ( ) she has a chance to relax.</div>
-                                    <div class="exam_select">
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="20" ano="1">1</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>whenever</div>
-                                            </div>
-                                        </div>
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="20" ano="2">2</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>whichever</div>
-                                            </div>
-                                        </div>
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="20" ano="3">3</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>whoever</div>
-                                            </div>
-                                        </div>
-                                        <div class="exam_answer_area row row-0">
-                                            <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="20" ano="4">4</button></div>
-                                            <div class="col-10 align-self-center">
-                                                <div>whatever</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="review_area"><input type="checkbox" class="answer_check_review" id="check_20" sno="20" value="1"><label class="review" for="check_20">あとで見直す</label></div>
-                                </div>
-                                <div class="col-1"></div>
                             </div>
                         </div>
-                    </div>
-                    <!-- end:content01_row-->
-                </article>
-                <article id="q27" class="wr_contents_area">
+                        <!-- end:content01_row-->
+                    </article>
+
+                    <article id="q6 " class="wr_contents_area ">
+
+                        <div class="row row-0 content01_row ">
+                            <div class="col-12 ">
+                                <div class="exam_set_no ">(11)</div>
+                                <div class="row row-0 ">
+                                    <div class="col-11 ">
+                                        <div class="exam_item_q ">A: Hello, Jane. Where are you? The movie will start soon. <br>B: Sorry, I'll be there before ( ). Please wait for me for five more minutes.</div>
+                                        <div class="exam_select ">
+                                            <div class="exam_answer_area row row-0 ">
+                                                <div class="select_btn_area col-1 "><button class="answer_button " type="button " qno="11 " ano="1 ">1</button></div>
+                                                <div class="col-10 align-self-center ">
+                                                    <div>long</div>
+                                                </div>
+                                            </div>
+                                            <div class="exam_answer_area row row-0 ">
+                                                <div class="select_btn_area col-1 "><button class="answer_button " type="button " qno="11 " ano="2 ">2</button></div>
+                                                <div class="col-10 align-self-center ">
+                                                    <div>little</div>
+                                                </div>
+                                            </div>
+                                            <div class="exam_answer_area row row-0 ">
+                                                <div class="select_btn_area col-1 "><button class="answer_button " type="button " qno="11 " ano="3 ">3</button></div>
+                                                <div class="col-10 align-self-center ">
+                                                    <div>less</div>
+                                                </div>
+                                            </div>
+                                            <div class="exam_answer_area row row-0 ">
+                                                <div class="select_btn_area col-1 "><button class="answer_button " type="button " qno="11 " ano="4 ">4</button></div>
+                                                <div class="col-10 align-self-center ">
+                                                    <div>late</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="review_area "><input type="checkbox " class="answer_check_review " id="check_11 " sno="11 " value="1 "><label class="review " for="check_11 ">あとで見直す</label></div>
+                                    </div>
+                                    <!-- end:col-11-->
+                                    <div class="col-1 "></div>
+                                </div>
+                                <!-- end:row-->
+                            </div>
+                            <!-- end:col-12-->
+                        </div>
+                        <!-- end:content01_row-->
+                        <br class=" ">
+                        <div class="row row-0 content01_row ">
+                            <div class="col-12 ">
+                                <div class="exam_set_no ">(12)</div>
+                                <div class="row row-0 ">
+                                    <div class="col-11 ">
+                                        <div class="exam_item_q ">Mark started playing a new video game. It was really exciting, so he played it all ( ) the night. The next day, he was really tired.</div>
+                                        <div class="exam_select ">
+                                            <div class="exam_answer_area row row-0 ">
+                                                <div class="select_btn_area col-1 "><button class="answer_button " type="button " qno="12 " ano="1 ">1</button></div>
+                                                <div class="col-10 align-self-center ">
+                                                    <div>across</div>
+                                                </div>
+                                            </div>
+                                            <div class="exam_answer_area row row-0 ">
+                                                <div class="select_btn_area col-1 "><button class="answer_button " type="button " qno="12 " ano="2 ">2</button></div>
+                                                <div class="col-10 align-self-center ">
+                                                    <div>on</div>
+                                                </div>
+                                            </div>
+                                            <div class="exam_answer_area row row-0 ">
+                                                <div class="select_btn_area col-1 "><button class="answer_button " type="button " qno="12 " ano="3 ">3</button></div>
+                                                <div class="col-10 align-self-center ">
+                                                    <div>down</div>
+                                                </div>
+                                            </div>
+                                            <div class="exam_answer_area row row-0 ">
+                                                <div class="select_btn_area col-1 "><button class="answer_button " type="button " qno="12 " ano="4 ">4</button></div>
+                                                <div class="col-10 align-self-center ">
+                                                    <div>through</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="review_area "><input type="checkbox " class="answer_check_review " id="check_12 " sno="12 " value="1 "><label class="review " for="check_12 ">あとで見直す</label></div>
+                                    </div>
+                                    <div class="col-1 "></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end:content01_row-->
+                    </article>
+
+                    <article id="q7 " class="wr_contents_area ">
+
+                        <div class="row row-0 content01_row ">
+                            <div class="col-12 ">
+                                <div class="exam_set_no ">(13)</div>
+                                <div class="row row-0 ">
+                                    <div class="col-11 ">
+                                        <div class="exam_item_q ">James asked his father to lend him the money to go on a trip with his friends. His father said it was ( ) the question and told James to get a part-time job instead.</div>
+                                        <div class="exam_select ">
+                                            <div class="exam_answer_area row row-0 ">
+                                                <div class="select_btn_area col-1 "><button class="answer_button " type="button " qno="13 " ano="1 ">1</button></div>
+                                                <div class="col-10 align-self-center ">
+                                                    <div>except for</div>
+                                                </div>
+                                            </div>
+                                            <div class="exam_answer_area row row-0 ">
+                                                <div class="select_btn_area col-1 "><button class="answer_button " type="button " qno="13 " ano="2 ">2</button></div>
+                                                <div class="col-10 align-self-center ">
+                                                    <div>out of</div>
+                                                </div>
+                                            </div>
+                                            <div class="exam_answer_area row row-0 ">
+                                                <div class="select_btn_area col-1 "><button class="answer_button " type="button " qno="13 " ano="3 ">3</button></div>
+                                                <div class="col-10 align-self-center ">
+                                                    <div>all about</div>
+                                                </div>
+                                            </div>
+                                            <div class="exam_answer_area row row-0 ">
+                                                <div class="select_btn_area col-1 "><button class="answer_button " type="button " qno="13 " ano="4 ">4</button></div>
+                                                <div class="col-10 align-self-center ">
+                                                    <div>next to</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="review_area "><input type="checkbox " class="answer_check_review " id="check_13 " sno="13 " value="1 "><label class="review " for="check_13 ">あとで見直す</label></div>
+                                    </div>
+                                    <!-- end:col-11-->
+                                    <div class="col-1 "></div>
+                                </div>
+                                <!-- end:row-->
+                            </div>
+                            <!-- end:col-12-->
+                        </div>
+                        <!-- end:content01_row-->
+                        <br class=" ">
+                        <div class="row row-0 content01_row ">
+                            <div class="col-12 ">
+                                <div class="exam_set_no ">(14)</div>
+                                <div class="row row-0 ">
+                                    <div class="col-11 ">
+                                        <div class="exam_item_q ">A: Let's have a barbecue in the park. <br>B: No, that would be ( ) the park's rules. We can have one in our backyard, though.</div>
+                                        <div class="exam_select ">
+                                            <div class="exam_answer_area row row-0 ">
+                                                <div class="select_btn_area col-1 "><button class="answer_button " type="button " qno="14 " ano="1 ">1</button></div>
+                                                <div class="col-10 align-self-center ">
+                                                    <div>behind</div>
+                                                </div>
+                                            </div>
+                                            <div class="exam_answer_area row row-0 ">
+                                                <div class="select_btn_area col-1 "><button class="answer_button " type="button " qno="14 " ano="2 ">2</button></div>
+                                                <div class="col-10 align-self-center ">
+                                                    <div>against</div>
+                                                </div>
+                                            </div>
+                                            <div class="exam_answer_area row row-0 ">
+                                                <div class="select_btn_area col-1 "><button class="answer_button " type="button " qno="14 " ano="3 ">3</button></div>
+                                                <div class="col-10 align-self-center ">
+                                                    <div>under</div>
+                                                </div>
+                                            </div>
+                                            <div class="exam_answer_area row row-0 ">
+                                                <div class="select_btn_area col-1 "><button class="answer_button " type="button " qno="14 " ano="4 ">4</button></div>
+                                                <div class="col-10 align-self-center ">
+                                                    <div>with</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="review_area "><input type="checkbox " class="answer_check_review " id="check_14 " sno="14 " value="1 "><label class="review " for="check_14 ">あとで見直す</label></div>
+                                    </div>
+                                    <div class="col-1 "></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end:content01_row-->
+                    </article>
+
+                    <article id="q8 " class="wr_contents_area ">
+
+                        <div class="row row-0 content01_row ">
+                            <div class="col-12 ">
+                                <div class="exam_set_no ">(15)</div>
+                                <div class="row row-0 ">
+                                    <div class="col-11 ">
+                                        <div class="exam_item_q ">Sam studied for his math test every evening last week. His hard work ( ) a very good score on the test.</div>
+                                        <div class="exam_select ">
+                                            <div class="exam_answer_area row row-0 ">
+                                                <div class="select_btn_area col-1 "><button class="answer_button " type="button " qno="15 " ano="1 ">1</button></div>
+                                                <div class="col-10 align-self-center ">
+                                                    <div>looked up</div>
+                                                </div>
+                                            </div>
+                                            <div class="exam_answer_area row row-0 ">
+                                                <div class="select_btn_area col-1 "><button class="answer_button " type="button " qno="15 " ano="2 ">2</button></div>
+                                                <div class="col-10 align-self-center ">
+                                                    <div>resulted in</div>
+                                                </div>
+                                            </div>
+                                            <div class="exam_answer_area row row-0 ">
+                                                <div class="select_btn_area col-1 "><button class="answer_button " type="button " qno="15 " ano="3 ">3</button></div>
+                                                <div class="col-10 align-self-center ">
+                                                    <div>dropped by</div>
+                                                </div>
+                                            </div>
+                                            <div class="exam_answer_area row row-0 ">
+                                                <div class="select_btn_area col-1 "><button class="answer_button " type="button " qno="15 " ano="4 ">4</button></div>
+                                                <div class="col-10 align-self-center ">
+                                                    <div>turned off</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="review_area "><input type="checkbox " class="answer_check_review " id="check_15 " sno="15 " value="1 "><label class="review " for="check_15 ">あとで見直す</label></div>
+                                    </div>
+                                    <!-- end:col-11-->
+                                    <div class="col-1 "></div>
+                                </div>
+                                <!-- end:row-->
+                            </div>
+                            <!-- end:col-12-->
+                        </div>
+                        <!-- end:content01_row-->
+                        <br class=" ">
+                        <div class="row row-0 content01_row ">
+                            <div class="col-12 ">
+                                <div class="exam_set_no ">(16)</div>
+                                <div class="row row-0 ">
+                                    <div class="col-11 ">
+                                        <div class="exam_item_q ">Helen took someone else's jacket ( ) when she left school. She went back later to return it.</div>
+                                        <div class="exam_select ">
+                                            <div class="exam_answer_area row row-0 ">
+                                                <div class="select_btn_area col-1 "><button class="answer_button " type="button " qno="16 " ano="1 ">1</button></div>
+                                                <div class="col-10 align-self-center ">
+                                                    <div>for sure</div>
+                                                </div>
+                                            </div>
+                                            <div class="exam_answer_area row row-0 ">
+                                                <div class="select_btn_area col-1 "><button class="answer_button " type="button " qno="16 " ano="2 ">2</button></div>
+                                                <div class="col-10 align-self-center ">
+                                                    <div>in part</div>
+                                                </div>
+                                            </div>
+                                            <div class="exam_answer_area row row-0 ">
+                                                <div class="select_btn_area col-1 "><button class="answer_button " type="button " qno="16 " ano="3 ">3</button></div>
+                                                <div class="col-10 align-self-center ">
+                                                    <div>at heart</div>
+                                                </div>
+                                            </div>
+                                            <div class="exam_answer_area row row-0 ">
+                                                <div class="select_btn_area col-1 "><button class="answer_button " type="button " qno="16 " ano="4 ">4</button></div>
+                                                <div class="col-10 align-self-center ">
+                                                    <div>by mistake</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="review_area "><input type="checkbox " class="answer_check_review " id="check_16 " sno="16 " value="1 "><label class="review " for="check_16 ">あとで見直す</label></div>
+                                    </div>
+                                    <div class="col-1 "></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end:content01_row-->
+                    </article>
+
+                    <article id="q9 " class="wr_contents_area ">
+
+                        <div class="row row-0 content01_row ">
+                            <div class="col-12 ">
+                                <div class="exam_set_no ">(17)</div>
+                                <div class="row row-0 ">
+                                    <div class="col-11 ">
+                                        <div class="exam_item_q ">Reiko told her parents that she would call them as soon as she got to Vancouver, but she did not keep her ( ). Her parents were worried about her.</div>
+                                        <div class="exam_select ">
+                                            <div class="exam_answer_area row row-0 ">
+                                                <div class="select_btn_area col-1 "><button class="answer_button " type="button " qno="17 " ano="1 ">1</button></div>
+                                                <div class="col-10 align-self-center ">
+                                                    <div>mind</div>
+                                                </div>
+                                            </div>
+                                            <div class="exam_answer_area row row-0 ">
+                                                <div class="select_btn_area col-1 "><button class="answer_button " type="button " qno="17 " ano="2 ">2</button></div>
+                                                <div class="col-10 align-self-center ">
+                                                    <div>place</div>
+                                                </div>
+                                            </div>
+                                            <div class="exam_answer_area row row-0 ">
+                                                <div class="select_btn_area col-1 "><button class="answer_button " type="button " qno="17 " ano="3 ">3</button></div>
+                                                <div class="col-10 align-self-center ">
+                                                    <div>promise</div>
+                                                </div>
+                                            </div>
+                                            <div class="exam_answer_area row row-0 ">
+                                                <div class="select_btn_area col-1 "><button class="answer_button " type="button " qno="17 " ano="4 ">4</button></div>
+                                                <div class="col-10 align-self-center ">
+                                                    <div>sight</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="review_area "><input type="checkbox " class="answer_check_review " id="check_17 " sno="17 " value="1 "><label class="review " for="check_17 ">あとで見直す</label></div>
+                                    </div>
+                                    <!-- end:col-11-->
+                                    <div class="col-1 "></div>
+                                </div>
+                                <!-- end:row-->
+                            </div>
+                            <!-- end:col-12-->
+                        </div>
+                        <!-- end:content01_row-->
+                        <br class=" ">
+                        <div class="row row-0 content01_row ">
+                            <div class="col-12 ">
+                                <div class="exam_set_no ">(18)</div>
+                                <div class="row row-0 ">
+                                    <div class="col-11 ">
+                                        <div class="exam_item_q ">( ) the train home last night, Amy remembered that it was her grandfather's birthday. She went to a store by the station to buy a present for him.</div>
+                                        <div class="exam_select ">
+                                            <div class="exam_answer_area row row-0 ">
+                                                <div class="select_btn_area col-1 "><button class="answer_button " type="button " qno="18 " ano="1 ">1</button></div>
+                                                <div class="col-10 align-self-center ">
+                                                    <div>Ridden</div>
+                                                </div>
+                                            </div>
+                                            <div class="exam_answer_area row row-0 ">
+                                                <div class="select_btn_area col-1 "><button class="answer_button " type="button " qno="18 " ano="2 ">2</button></div>
+                                                <div class="col-10 align-self-center ">
+                                                    <div>Ride</div>
+                                                </div>
+                                            </div>
+                                            <div class="exam_answer_area row row-0 ">
+                                                <div class="select_btn_area col-1 "><button class="answer_button " type="button " qno="18 " ano="3 ">3</button></div>
+                                                <div class="col-10 align-self-center ">
+                                                    <div>Rode</div>
+                                                </div>
+                                            </div>
+                                            <div class="exam_answer_area row row-0 ">
+                                                <div class="select_btn_area col-1 "><button class="answer_button " type="button " qno="18 " ano="4 ">4</button></div>
+                                                <div class="col-10 align-self-center ">
+                                                    <div>Riding</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="review_area "><input type="checkbox " class="answer_check_review " id="check_18 " sno="18 " value="1 "><label class="review " for="check_18 ">あとで見直す</label></div>
+                                    </div>
+                                    <div class="col-1 "></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end:content01_row-->
+                    </article>
+
+                    <article id="q10 " class="wr_contents_area ">
+
+                        <div class="row row-0 content01_row ">
+                            <div class="col-12 ">
+                                <div class="exam_set_no ">(19)</div>
+                                <div class="row row-0 ">
+                                    <div class="col-11 ">
+                                        <div class="exam_item_q ">A: Have you read that book I lent you? <br>B: I'm still reading it, but I ( ) it by tomorrow morning. I'll give it back to you then.</div>
+                                        <div class="exam_select ">
+                                            <div class="exam_answer_area row row-0 ">
+                                                <div class="select_btn_area col-1 "><button class="answer_button " type="button " qno="19 " ano="1 ">1</button></div>
+                                                <div class="col-10 align-self-center ">
+                                                    <div>will have finished</div>
+                                                </div>
+                                            </div>
+                                            <div class="exam_answer_area row row-0 ">
+                                                <div class="select_btn_area col-1 "><button class="answer_button " type="button " qno="19 " ano="2 ">2</button></div>
+                                                <div class="col-10 align-self-center ">
+                                                    <div>had finished</div>
+                                                </div>
+                                            </div>
+                                            <div class="exam_answer_area row row-0 ">
+                                                <div class="select_btn_area col-1 "><button class="answer_button " type="button " qno="19 " ano="3 ">3</button></div>
+                                                <div class="col-10 align-self-center ">
+                                                    <div>would be finished</div>
+                                                </div>
+                                            </div>
+                                            <div class="exam_answer_area row row-0">
+                                                <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="19" ano="4">4</button></div>
+                                                <div class="col-10 align-self-center">
+                                                    <div>was finishing</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="review_area "><input type="checkbox " class="answer_check_review " id="check_19 " sno="19 " value="1 "><label class="review " for="check_19 ">あとで見直す</label></div>
+                                    </div>
+                                    <!-- end:col-11-->
+                                    <div class="col-1 "></div>
+                                </div>
+                                <!-- end:row-->
+                            </div>
+                            <!-- end:col-12-->
+                        </div>
+                        <!-- end:content01_row-->
+                        <br class="">
+                        <div class="row row-0 content01_row">
+                            <div class="col-12">
+                                <div class="exam_set_no">(20)</div>
+                                <div class="row row-0">
+                                    <div class="col-11">
+                                        <div class="exam_item_q">Emily has three children and works every day, so she is very busy. She likes to watch TV ( ) she has a chance to relax.</div>
+                                        <div class="exam_select">
+                                            <div class="exam_answer_area row row-0">
+                                                <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="20" ano="1">1</button></div>
+                                                <div class="col-10 align-self-center">
+                                                    <div>whenever</div>
+                                                </div>
+                                            </div>
+                                            <div class="exam_answer_area row row-0 ">
+                                                <div class="select_btn_area col-1 "><button class="answer_button " type="button " qno="20 " ano="2 ">2</button></div>
+                                                <div class="col-10 align-self-center ">
+                                                    <div>whichever</div>
+                                                </div>
+                                            </div>
+                                            <div class="exam_answer_area row row-0">
+                                                <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="20" ano="3">3</button></div>
+                                                <div class="col-10 align-self-center">
+                                                    <div>whoever</div>
+                                                </div>
+                                            </div>
+                                            <div class="exam_answer_area row row-0">
+                                                <div class="select_btn_area col-1"><button class="answer_button" type="button" qno="20" ano="4">4</button></div>
+                                                <div class="col-10 align-self-center">
+                                                    <div>whatever</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="review_area "><input type="checkbox " class="answer_check_review " id="check_20 " sno="20 " value="1 "><label class="review " for="check_20 ">あとで見直す</label></div>
+                                    </div>
+                                    <div class="col-1 "></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end:content01_row-->
+                    </article>
+                    <article id="q27" class="wr_contents_area">
 
 
-                    <!-- /////////////////////////////////////////////////////////////////////////
+                        <!-- /////////////////////////////////////////////////////////////////////////
 CANVAS
 //////////////////////////////////////////////////////////////////////////////-->
-                    <div id="canvas_list" style="display: none;">
-                        <div id="canvas_base01" class="canvas_base">
-                            <canvas id="canvas" class="pen" width="200" height="429.875" style="height: 429.875px;">図形を表示するには、canvasタグをサポートしたブラウザが必要です。</canvas>
-                            <img id="canvas_background" src="./リーディング_files/01_4.png">
-                        </div>
-                        <div id="canvas_base02" class="canvas_base">
-                            <canvas id="canvas" class="pen" width="200" height="677.047" style="height: 677.047px;">図形を表示するには、canvasタグをサポートしたブラウザが必要です。</canvas>
-                            <img id="canvas_background" src="./リーディング_files/01_3.png">
-                        </div>
-                        <div id="canvas_base03" class="canvas_base">
-                            <canvas id="canvas" class="pen" width="200" height="499.719" style="height: 499.719px;">図形を表示するには、canvasタグをサポートしたブラウザが必要です。</canvas>
-                            <img id="canvas_background" src="./リーディング_files/01_2.png">
-                        </div>
-                        <div id="canvas_base04" class="canvas_base">
-                            <canvas id="canvas" class="pen" width="200" height="742.141" style="height: 742.141px;">図形を表示するには、canvasタグをサポートしたブラウザが必要です。</canvas>
-                            <img id="canvas_background" src="./リーディング_files/01_1.png">
-                        </div>
-                    </div>
-
-
-                    <!-- /////////////////////////////////////////////////////////////////////////
-全体表示
-//////////////////////////////////////////////////////////////////////////////-->
-                    <div id="dialog_15" class="dialog_sentence ui-dialog-content ui-widget-content" style="width: auto; min-height: 0px; max-height: none; height: 713.951px;">
-                        <img class="other_dialog" src="./リーディング_files/01_4.png">
-                    </div>
-                    <div id="dialog_16" class="dialog_sentence ui-dialog-content ui-widget-content" style="width: auto; min-height: 0px; max-height: none; height: 713.951px;">
-                        <img class="other_dialog" src="./リーディング_files/01_4.png">
-                    </div>
-                    <div id="dialog_17" class="dialog_sentence ui-dialog-content ui-widget-content" style="width: auto; min-height: 0px; max-height: none; height: 713.951px;">
-                        <img class="other_dialog" src="./リーディング_files/01_3.png">
-                    </div>
-                    <div id="dialog_18" class="dialog_sentence ui-dialog-content ui-widget-content" style="width: auto; min-height: 0px; max-height: none; height: 713.951px;">
-                        <img class="other_dialog" src="./リーディング_files/01_3.png">
-                    </div>
-                    <div id="dialog_19" class="dialog_sentence ui-dialog-content ui-widget-content" style="width: auto; min-height: 0px; max-height: none; height: 713.951px;">
-                        <img class="other_dialog" src="./リーディング_files/01_3.png">
-                    </div>
-                    <div id="dialog_20" class="dialog_sentence ui-dialog-content ui-widget-content" style="width: auto; min-height: 0px; max-height: none; height: 713.951px;">
-                        <img class="other_dialog" src="./リーディング_files/01_2.png">
-                    </div>
-                    <div id="dialog_21" class="dialog_sentence ui-dialog-content ui-widget-content" style="width: auto; min-height: 0px; max-height: none; height: 713.951px;">
-                        <img class="other_dialog" src="./リーディング_files/01_2.png">
-                    </div>
-                    <div id="dialog_22" class="dialog_sentence ui-dialog-content ui-widget-content" style="width: auto; min-height: 0px; max-height: none; height: 713.951px;">
-                        <img class="other_dialog" src="./リーディング_files/01_2.png">
-                    </div>
-                    <div id="dialog_23" class="dialog_sentence ui-dialog-content ui-widget-content" style="width: auto; min-height: 0px; max-height: none; height: 713.951px;">
-                        <img class="other_dialog" src="./リーディング_files/01_1.png">
-                    </div>
-                    <div id="dialog_24" class="dialog_sentence ui-dialog-content ui-widget-content" style="width: auto; min-height: 0px; max-height: none; height: 713.951px;">
-                        <img class="other_dialog" src="./リーディング_files/01_1.png">
-                    </div>
-                    <div id="dialog_25" class="dialog_sentence ui-dialog-content ui-widget-content" style="width: auto; min-height: 0px; max-height: none; height: 713.951px;">
-                        <img class="other_dialog" src="./リーディング_files/01_1.png">
-                    </div>
-                    <div id="dialog_26" class="dialog_sentence ui-dialog-content ui-widget-content" style="width: auto; min-height: 0px; max-height: none; height: 713.951px;">
-                        <img class="other_dialog" src="./リーディング_files/01_1.png">
-                    </div>
-
-                    <!-- /////////////////////////////////////////////////////////////////////////
-貼り付けダイアログ
-//////////////////////////////////////////////////////////////////////////////-->
-                    <div id="paste_dialog" tabindex="-1" role="dialog" class="ui-dialog ui-corner-all ui-widget ui-widget-content ui-front titleClass" aria-describedby="dialog_writing_alert" aria-labelledby="ui-id-11" style="display:none;height: auto; width: 631.923px; top: 50%; margin-top: -100px; left:50%;margin-left: -315px; z-index: 101;">
-                        <div class="ui-dialog-titlebar ui-corner-all ui-widget-header ui-helper-clearfix"><span id="ui-id-11" class="ui-dialog-title">ライティング</span><button type="button" class="ui-button ui-corner-all ui-widget ui-button-icon-only ui-dialog-titlebar-close" title="Close" style="display: none;"><span class="ui-button-icon ui-icon ui-icon-closethick"></span><span class="ui-button-icon-space"> </span>Close</button></div>
-                        <div id="dialog_writing_alert" class="ui-dialog-content ui-widget-content" style="width: auto; min-height: 0px; max-height: none; height: 159.789px;">
-                            <div class="text-center" id="dialog_writing_alert_txt">貼り付けを行なうと、選択している文字列が消去されます。<br>よろしいですか？</div>
-                            <div class="text-center" id="dialog_writing_alert_btn">
-                                <button id="dialog_writing_alert_ok">はい</button>
-                                <button id="dialog_writing_alert_cancel">いいえ</button>
+                        <div id="canvas_list" style="display: none;">
+                            <div id="canvas_base01" class="canvas_base">
+                                <canvas id="canvas" class="pen" width="200" height="429.875" style="height: 429.875px;">図形を表示するには、canvasタグをサポートしたブラウザが必要です。</canvas>
+                                <img id="canvas_background" src="./リーディング_files/01_4.png">
+                            </div>
+                            <div id="canvas_base02" class="canvas_base">
+                                <canvas id="canvas" class="pen" width="200" height="677.047" style="height: 677.047px;">図形を表示するには、canvasタグをサポートしたブラウザが必要です。</canvas>
+                                <img id="canvas_background" src="./リーディング_files/01_3.png">
+                            </div>
+                            <div id="canvas_base03" class="canvas_base">
+                                <canvas id="canvas" class="pen" width="200" height="499.719" style="height: 499.719px;">図形を表示するには、canvasタグをサポートしたブラウザが必要です。</canvas>
+                                <img id="canvas_background" src="./リーディング_files/01_2.png">
+                            </div>
+                            <div id="canvas_base04" class="canvas_base">
+                                <canvas id="canvas" class="pen" width="200" height="742.141" style="height: 742.141px;">図形を表示するには、canvasタグをサポートしたブラウザが必要です。</canvas>
+                                <img id="canvas_background" src="./リーディング_files/01_1.png">
                             </div>
                         </div>
-                    </div>
 
-
-                    <!-- /////////////////////////////////////////////////////////////////////////
+                        <!-- /////////////////////////////////////////////////////////////////////////
 全体参照
 //////////////////////////////////////////////////////////////////////////////-->
-                    <div id="writing_dialog" tabindex="-1" role="dialog" style="display:none;position: absolute; height: auto; width: 1034.96px; top: 98.547px; left: 154.025px;" class="ui-dialog ui-corner-all ui-widget ui-widget-content ui-front ui-draggable ui-resizable"
-                        aria-describedby="dialog_writing" aria-labelledby="ui-id-24">
-                        <div class="ui-dialog-titlebar ui-corner-all ui-widget-header ui-helper-clearfix ui-draggable-handle"><span id="ui-id-24" class="ui-dialog-title">&nbsp;</span><button type="button" class="ui-button ui-corner-all ui-widget ui-button-icon-only ui-dialog-titlebar-close" title="Close" style="display: block;"><span class="ui-button-icon ui-icon ui-icon-closethick"></span><span class="ui-button-icon-space"> </span>Close</button></div>
-                        <div class="ui-resizable-handle ui-resizable-n" style="z-index: 90;"></div>
-                        <div class="ui-resizable-handle ui-resizable-e" style="z-index: 90;"></div>
-                        <div class="ui-resizable-handle ui-resizable-s" style="z-index: 90;"></div>
-                        <div class="ui-resizable-handle ui-resizable-w" style="z-index: 90;"></div>
-                        <div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se" style="z-index: 90;"></div>
-                        <div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90;"></div>
-                        <div class="ui-resizable-handle ui-resizable-ne" style="z-index: 90;"></div>
-                        <div class="ui-resizable-handle ui-resizable-nw" style="z-index: 90;"></div>
-                    </div>
-
-                    <!-- /////////////////////////////////////////////////////////////////////////
-終了
-//////////////////////////////////////////////////////////////////////////////-->
-                    <div id="dialog_writing_end" tabindex="-1" role="dialog" class="ui-dialog ui-corner-all ui-widget ui-widget-content ui-front writingTitle" aria-describedby="dialog_writing_end" aria-labelledby="ui-id-9" style="height: auto; width: 734.048px; top: 215.656px; left: 50%;margin-left: -367px; z-index: 101; display: none;">
-                        <div class="ui-widget-overlay ui-front" style="z-index: 10;"></div>
-                        <div class="ui-dialog-titlebar ui-corner-all ui-widget-header ui-helper-clearfix"><span id="ui-id-9" class="ui-dialog-title">筆記試験(リーディングテスト・ライティングテスト)の終了</span><button type="button" class="ui-button ui-corner-all ui-widget ui-button-icon-only ui-dialog-titlebar-close" title="Close"><span class="ui-button-icon ui-icon ui-icon-closethick"></span><span class="ui-button-icon-space"> </span>Close</button></div>
-                        <div id="dialog_writing_end" class="ui-dialog-content ui-widget-content" style="width: auto; min-height: 82.9062px; max-height: none; height: auto;">
-                            <div class="text-center" id="dialog_writing_end_txt">
-                                <p><span class="ans_end">筆記試験(リーディングテスト・ライティングテスト)は<br>すべて解答済みですか？</span></p>
-                                <p>一度「はい」を押すと、<br>筆記試験(リーディングテスト・ライティングテスト)は<br>終了となり、<span class="ans_end_u">試験に戻ることはできません。</span> </p>
-                                <p>まだ、未解答の問題や見直したい問題が残っている場合は、<br>「いいえ」を押して試験に戻ってください。</p>
-                                <p>筆記試験(リーディングテスト・ライティングテスト)を<br>終了する場合は、「はい」を押してください。</p>
-                            </div>
-                            <div class="text-center" id="dialog_writing_end_btn">
-                                <button id="dialog_writing_end_ok">はい</button>
-                                <button id="dialog_writing_end_cancel">いいえ</button>
-                            </div>
+                        <div id="writing_dialog" tabindex="-1" role="dialog" style="display:none;position: absolute; height: auto; width: 1034.96px; top: 98.547px; left: 154.025px;" class="ui-dialog ui-corner-all ui-widget ui-widget-content ui-front ui-draggable ui-resizable"
+                            aria-describedby="dialog_writing" aria-labelledby="ui-id-24">
+                            <div class="ui-dialog-titlebar ui-corner-all ui-widget-header ui-helper-clearfix ui-draggable-handle"><span id="ui-id-24" class="ui-dialog-title">&nbsp;</span><button type="button" class="ui-button ui-corner-all ui-widget ui-button-icon-only ui-dialog-titlebar-close" title="Close" style="display: block;"><span class="ui-button-icon ui-icon ui-icon-closethick"></span><span class="ui-button-icon-space"> </span>Close</button></div>
+                            <div class="ui-resizable-handle ui-resizable-n" style="z-index: 90;"></div>
+                            <div class="ui-resizable-handle ui-resizable-e" style="z-index: 90;"></div>
+                            <div class="ui-resizable-handle ui-resizable-s" style="z-index: 90;"></div>
+                            <div class="ui-resizable-handle ui-resizable-w" style="z-index: 90;"></div>
+                            <div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se" style="z-index: 90;"></div>
+                            <div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90;"></div>
+                            <div class="ui-resizable-handle ui-resizable-ne" style="z-index: 90;"></div>
+                            <div class="ui-resizable-handle ui-resizable-nw" style="z-index: 90;"></div>
                         </div>
-                    </div>
 
-                    <!-- /////////////////////////////////////////////////////////////////////////
-試験終了
-//////////////////////////////////////////////////////////////////////////////-->
-                    <div id="modalWindow">
-                        <div id="modalBG"></div>
-                        <div id="modalContent">
-                            <div id="title">体験版終了</div>
-                            <div id="content">
-                                <div id="text">※これでリーディングテスト/ライティングテスト<br>の体験版は終了です</div>
-                                <button id="all_end">終了</button>
-                            </div>
+
+                        <div tabindex="-1" role="dialog" class="ui-dialog ui-corner-all ui-widget ui-widget-content ui-front ui-draggable ui-resizable" aria-describedby="dialog_writing" aria-labelledby="ui-id-1" style="display: none; position: absolute;">
+                            <div class="ui-dialog-titlebar ui-corner-all ui-widget-header ui-helper-clearfix ui-draggable-handle"><span id="ui-id-1" class="ui-dialog-title">&nbsp;</span><button type="button" class="ui-button ui-corner-all ui-widget ui-button-icon-only ui-dialog-titlebar-close" title="Close"><span class="ui-button-icon ui-icon ui-icon-closethick"></span><span class="ui-button-icon-space"> </span>Close</button></div>
+                            <div id="dialog_writing" class="ui-dialog-content ui-widget-content" style="width: auto; min-height: 0px; max-height: none; height: 538.254px; padding: 0px; text-align: left;">ai duu riad</div>
+                            <div class="ui-resizable-handle ui-resizable-n" style="z-index: 90;"></div>
+                            <div class="ui-resizable-handle ui-resizable-e" style="z-index: 90;"></div>
+                            <div class="ui-resizable-handle ui-resizable-s" style="z-index: 90;"></div>
+                            <div class="ui-resizable-handle ui-resizable-w" style="z-index: 90;"></div>
+                            <div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se" style="z-index: 90;"></div>
+                            <div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90;"></div>
+                            <div class="ui-resizable-handle ui-resizable-ne" style="z-index: 90;"></div>
+                            <div class="ui-resizable-handle ui-resizable-nw" style="z-index: 90;"></div>
                         </div>
-                    </div>
-
-
-
-                    <div tabindex="-1" role="dialog" class="ui-dialog ui-corner-all ui-widget ui-widget-content ui-front ui-draggable ui-resizable" aria-describedby="dialog_writing" aria-labelledby="ui-id-1" style="display: none; position: absolute;">
-                        <div class="ui-dialog-titlebar ui-corner-all ui-widget-header ui-helper-clearfix ui-draggable-handle"><span id="ui-id-1" class="ui-dialog-title">&nbsp;</span><button type="button" class="ui-button ui-corner-all ui-widget ui-button-icon-only ui-dialog-titlebar-close" title="Close"><span class="ui-button-icon ui-icon ui-icon-closethick"></span><span class="ui-button-icon-space"> </span>Close</button></div>
-                        <div id="dialog_writing" class="ui-dialog-content ui-widget-content" style="width: auto; min-height: 0px; max-height: none; height: 538.254px; padding: 0px; text-align: left;">ai duu riad</div>
-                        <div class="ui-resizable-handle ui-resizable-n" style="z-index: 90;"></div>
-                        <div class="ui-resizable-handle ui-resizable-e" style="z-index: 90;"></div>
-                        <div class="ui-resizable-handle ui-resizable-s" style="z-index: 90;"></div>
-                        <div class="ui-resizable-handle ui-resizable-w" style="z-index: 90;"></div>
-                        <div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se" style="z-index: 90;"></div>
-                        <div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90;"></div>
-                        <div class="ui-resizable-handle ui-resizable-ne" style="z-index: 90;"></div>
-                        <div class="ui-resizable-handle ui-resizable-nw" style="z-index: 90;"></div>
-                    </div>
 </body>
-
-</html>
 
 </html>
